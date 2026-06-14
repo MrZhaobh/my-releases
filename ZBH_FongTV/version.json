@@ -1,9 +1,9 @@
 {
-  "versionCode": 364,
-  "versionName": "3.4.20-ZBH",
-  "publishedAt": "2026-06-14T16:03:01Z",
-  "changelog": "包名伪装绕过 spider 反 fork SIGKILL (SZYYDS 等)",
-  "minSupportedVersionCode": 363,
+  "versionCode": 365,
+  "versionName": "3.4.21-ZBH",
+  "publishedAt": "2026-06-14T16:09:01Z",
+  "changelog": "SpiderHook: 修编译错误 (Hook.getPackageInfo 不 throws)",
+  "minSupportedVersionCode": 364,
   "variants": {
     "mobile": {
       "v8a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "6d0a1c41467e44707360fe8fe827ffa43ca2cfa327a20205f0222b8bd0176b8a",
+        "sha256": "44c0966754e3e29650386f6bce876de7f1b73c0e68b7dad027fc01d65c04641a",
         "sizeMB": 30.27
       }
     }
