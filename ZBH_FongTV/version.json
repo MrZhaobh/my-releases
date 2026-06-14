@@ -1,15 +1,15 @@
 {
-  "versionCode": 354,
-  "versionName": "3.4.10-ZBH",
-  "publishedAt": "2026-06-14T14:22:36Z",
-  "changelog": "修 Gitee 403: 加 UA + 用 raw.githubusercontent.com; 文件名带版本号; versionName 自动 +patch",
-  "minSupportedVersionCode": 353,
+  "versionCode": 355,
+  "versionName": "3.4.11-ZBH",
+  "publishedAt": "2026-06-14T14:29:05Z",
+  "changelog": "改回退源为 gh-proxy (Gitee Baidu WAF 拦 APK 没办法)",
+  "minSupportedVersionCode": 354,
   "variants": {
     "mobile": {
       "v7a": {
         "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "gitee": "https://gitee.com/mrzhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "d245206b227f787a94b5faad7fed41f3908eb628f96f3dd6f888d32eeacdc86b",
+        "gitee": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
+        "sha256": "159a30a7b84884c776dc22b2a391202aa710e76432dbcd6caf1e24a3d2775ae3",
         "sizeMB": 30.16
       }
     }
