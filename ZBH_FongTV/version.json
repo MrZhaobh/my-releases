@@ -1,15 +1,20 @@
 {
-  "versionCode": 355,
-  "versionName": "3.4.11-ZBH",
-  "publishedAt": "2026-06-14T14:29:05Z",
-  "changelog": "改回退源为 gh-proxy (Gitee Baidu WAF 拦 APK 没办法)",
-  "minSupportedVersionCode": 354,
+  "versionCode": 356,
+  "versionName": "3.4.12-ZBH",
+  "publishedAt": "2026-06-14T14:44:46Z",
+  "changelog": "支持多代理 URL 数组,proxy 优先",
+  "minSupportedVersionCode": 355,
   "variants": {
     "mobile": {
       "v7a": {
-        "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "gitee": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "159a30a7b84884c776dc22b2a391202aa710e76432dbcd6caf1e24a3d2775ae3",
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
+        "sha256": "409cbb334e83d72be51c4332169608627606fcd7e7ea901589e618d944c24da6",
         "sizeMB": 30.16
       }
     }
