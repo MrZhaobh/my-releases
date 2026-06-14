@@ -1,9 +1,9 @@
 {
-  "versionCode": 358,
-  "versionName": "3.4.14-ZBH",
-  "publishedAt": "2026-06-14T14:58:51Z",
-  "changelog": "更新弹窗加'系统下载'按钮 (DownloadManager 接管)",
-  "minSupportedVersionCode": 357,
+  "versionCode": 359,
+  "versionName": "3.4.15-ZBH",
+  "publishedAt": "2026-06-14T15:01:28Z",
+  "changelog": "359: 验证三按钮 + 系统下载",
+  "minSupportedVersionCode": 358,
   "variants": {
     "mobile": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "9c55de247de1ac59589a0a8618f9d952f28865b20e4ec6830bb59389d03e1d3e",
+        "sha256": "4e7b285734540f392b808d5e10290d610f68cb3efd2766640d2df57431979f98",
         "sizeMB": 30.16
       }
     }
