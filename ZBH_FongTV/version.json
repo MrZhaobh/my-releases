@@ -1,15 +1,15 @@
 {
-  "versionCode": 350,
+  "versionCode": 351,
   "versionName": "3.4.9-ZBH",
-  "publishedAt": "2026-06-14T13:40:17Z",
-  "changelog": "smoke test",
-  "minSupportedVersionCode": 349,
+  "publishedAt": "2026-06-14T13:51:15Z",
+  "changelog": "测试自动更新: 这条文字应该会显示在客户端的'发现新版本'对话框里",
+  "minSupportedVersionCode": 350,
   "variants": {
     "mobile": {
       "v7a": {
         "github": "https://github.com/MrZhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
         "gitee": "https://gitee.com/mrzhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "d856531b1ba982f52269a36d1f5a238c64fbaaf97509e4070cf0491f69261ff1",
+        "sha256": "1495ef9654b162879a7a9f2bb852b076269a3bfc25264e46897b903ca105d8b8",
         "sizeMB": 30.15
       }
     }
