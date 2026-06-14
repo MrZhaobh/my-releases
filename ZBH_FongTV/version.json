@@ -1,9 +1,9 @@
 {
-  "versionCode": 356,
-  "versionName": "3.4.12-ZBH",
-  "publishedAt": "2026-06-14T14:44:46Z",
-  "changelog": "支持多代理 URL 数组,proxy 优先",
-  "minSupportedVersionCode": 355,
+  "versionCode": 357,
+  "versionName": "3.4.13-ZBH",
+  "publishedAt": "2026-06-14T14:47:30Z",
+  "changelog": "356 → 357 验证新客户端按 urls 顺序试",
+  "minSupportedVersionCode": 356,
   "variants": {
     "mobile": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "409cbb334e83d72be51c4332169608627606fcd7e7ea901589e618d944c24da6",
+        "sha256": "a0de66e91171afcd0c2d2a04ed86d5b170d68583c366cab7f700b737a1bfcfc8",
         "sizeMB": 30.16
       }
     }
