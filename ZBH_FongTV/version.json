@@ -1,15 +1,15 @@
 {
-  "versionCode": 353,
-  "versionName": "3.4.9-ZBH",
-  "publishedAt": "2026-06-14T14:05:11Z",
-  "changelog": "测试自动更新弹窗 (353)",
-  "minSupportedVersionCode": 352,
+  "versionCode": 354,
+  "versionName": "3.4.10-ZBH",
+  "publishedAt": "2026-06-14T14:22:36Z",
+  "changelog": "修 Gitee 403: 加 UA + 用 raw.githubusercontent.com; 文件名带版本号; versionName 自动 +patch",
+  "minSupportedVersionCode": 353,
   "variants": {
     "mobile": {
       "v7a": {
-        "github": "https://github.com/MrZhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
+        "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v7a.apk",
         "gitee": "https://gitee.com/mrzhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "1420ab2f3abaf5237c43cfbada1e084b0dca4888760043594b869161e1e6ad88",
+        "sha256": "d245206b227f787a94b5faad7fed41f3908eb628f96f3dd6f888d32eeacdc86b",
         "sizeMB": 30.16
       }
     }
