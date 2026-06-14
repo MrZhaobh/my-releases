@@ -1,9 +1,9 @@
 {
-  "versionCode": 362,
-  "versionName": "3.4.18-ZBH",
-  "publishedAt": "2026-06-14T15:48:25Z",
-  "changelog": "源3 单条 URL 时强制 override 活跃 VOD",
-  "minSupportedVersionCode": 361,
+  "versionCode": 363,
+  "versionName": "3.4.19-ZBH",
+  "publishedAt": "2026-06-14T15:54:42Z",
+  "changelog": "Decoder.getJson: HttpUrl.parse(null) NPE 修复",
+  "minSupportedVersionCode": 362,
   "variants": {
     "mobile": {
       "v8a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "6f79d8880345d3f40f4779032f7c7c042deb160f11afd6ce477a4fceb5f0ee1b",
+        "sha256": "f3aac62bc96e8758f010f10e1cab18ce4bbb7fda5b75b325c8fd7b8fa94296a4",
         "sizeMB": 30.27
       }
     }
