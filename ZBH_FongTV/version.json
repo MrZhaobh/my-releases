@@ -1,9 +1,9 @@
 {
-  "versionCode": 365,
-  "versionName": "3.4.21-ZBH",
-  "publishedAt": "2026-06-14T16:09:01Z",
-  "changelog": "SpiderHook: 修编译错误 (Hook.getPackageInfo 不 throws)",
-  "minSupportedVersionCode": 364,
+  "versionCode": 366,
+  "versionName": "3.4.22-ZBH",
+  "publishedAt": "2026-06-14T16:46:24Z",
+  "changelog": "WebView 预加载走反射",
+  "minSupportedVersionCode": 365,
   "variants": {
     "mobile": {
       "v8a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "44c0966754e3e29650386f6bce876de7f1b73c0e68b7dad027fc01d65c04641a",
+        "sha256": "ec1eb55489dba4611d09b97e4e1579ae93c4ac2215b99059636fcca3d1fe842b",
         "sizeMB": 30.27
       }
     }
