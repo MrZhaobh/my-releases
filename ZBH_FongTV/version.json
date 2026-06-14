@@ -1,16 +1,16 @@
 {
-  "versionCode": 351,
+  "versionCode": 352,
   "versionName": "3.4.9-ZBH",
-  "publishedAt": "2026-06-14T13:51:15Z",
-  "changelog": "测试自动更新: 这条文字应该会显示在客户端的'发现新版本'对话框里",
-  "minSupportedVersionCode": 350,
+  "publishedAt": "2026-06-14T14:02:35Z",
+  "changelog": "修复 R8 混淆导致 Gson 解析挂掉",
+  "minSupportedVersionCode": 351,
   "variants": {
     "mobile": {
       "v7a": {
         "github": "https://github.com/MrZhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
         "gitee": "https://gitee.com/mrzhaobh/my-releases/raw/main/ZBH_FongTV/dist/mobile-v7a.apk",
-        "sha256": "1495ef9654b162879a7a9f2bb852b076269a3bfc25264e46897b903ca105d8b8",
-        "sizeMB": 30.15
+        "sha256": "3754d62e5e7d6fe765a1e1dcd0d6422fb0d7152178255f01393e7fd7eed7b0ea",
+        "sizeMB": 30.16
       }
     }
   },
