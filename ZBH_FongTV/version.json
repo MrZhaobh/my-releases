@@ -1,9 +1,9 @@
 {
-  "versionCode": 360,
-  "versionName": "3.4.16-ZBH",
-  "publishedAt": "2026-06-14T15:24:47Z",
-  "changelog": "矩阵收敛: 默认只发 leanback v7a + mobile v8a",
-  "minSupportedVersionCode": 359,
+  "versionCode": 361,
+  "versionName": "3.4.17-ZBH",
+  "publishedAt": "2026-06-14T15:42:30Z",
+  "changelog": "测试通道: 加载 源3.txt 复现 SZYYDS 崩溃",
+  "minSupportedVersionCode": 360,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "ee3a8973428cbf233b9511abc71197555f683b62acf3b0665f5505ab55759180",
+        "sha256": "84ae35fd8e4771931d336e8d609c41852c9662705e95f86e2c0ea51e03fa7b0f",
         "sizeMB": 30.18
       }
     },
@@ -27,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "3eb90d6a933f7dcb59a4754ff3939ddcb4a48bc5aea7f16b7930feba78cbd2f0",
+        "sha256": "c7b9e9c9a332885ed9e0250ad1dca494a1ba92138b2677002572ea2aaa516ae1",
         "sizeMB": 30.27
       }
     }
