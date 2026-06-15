@@ -1,9 +1,9 @@
 {
-  "versionCode": 367,
-  "versionName": "3.4.23-ZBH",
-  "publishedAt": "2026-06-15T00:54:31Z",
-  "changelog": "Spider 反 fork 类源点击闪退修复 (SZYYDS 等): Decoder null-safe, App.getPackageName stack-walk, SpiderHook 接管 PackageInfo. 详见 SZYYDS_FIX.md",
-  "minSupportedVersionCode": 366,
+  "versionCode": 368,
+  "versionName": "3.4.24-ZBH",
+  "publishedAt": "2026-06-15T01:05:38Z",
+  "changelog": "回归: 367 首页转圈修复 (getPackageManager 改成栈感知, 去掉 Guard 宽松规则)",
+  "minSupportedVersionCode": 367,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "d05af1f7bfb9859369435d8f848f20eeae2792f878497dbdc6c11a6dc0e0731c",
+        "sha256": "202ac11d71a486fb73aad1db0267832e5c780455ce79240fb88df4cedc438f45",
         "sizeMB": 30.18
       }
     },
@@ -27,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "8cdebe16c7c199f6411cfc21f3f37074ebecc6f86d66e95658fee43b88a2cbed",
+        "sha256": "0006baecd6784fb4447a76b0c662fe42397db5551b43f5b13b183c18125d75ad",
         "sizeMB": 30.27
       }
     }
