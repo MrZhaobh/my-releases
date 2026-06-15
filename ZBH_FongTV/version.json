@@ -1,9 +1,9 @@
 {
-  "versionCode": 368,
-  "versionName": "3.4.24-ZBH",
-  "publishedAt": "2026-06-15T01:05:38Z",
-  "changelog": "回归: 367 首页转圈修复 (getPackageManager 改成栈感知, 去掉 Guard 宽松规则)",
-  "minSupportedVersionCode": 367,
+  "versionCode": 369,
+  "versionName": "3.4.25-ZBH",
+  "publishedAt": "2026-06-15T01:14:03Z",
+  "changelog": "紧急回滚: 移除 WebView 预加载 (引起 Chromium UncaughtHandler 抢占 → JNI FATAL → App 闪退), CAOC 回 SILENT",
+  "minSupportedVersionCode": 368,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "202ac11d71a486fb73aad1db0267832e5c780455ce79240fb88df4cedc438f45",
+        "sha256": "91b0634bd12a975dcfdf59c1044a290f377a0a4d025909d7abf64ca8e837d836",
         "sizeMB": 30.18
       }
     },
@@ -27,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "0006baecd6784fb4447a76b0c662fe42397db5551b43f5b13b183c18125d75ad",
+        "sha256": "2e8a09aa2bf79b46dda732204412c428f967d7a07f04051d43a644588d554dda",
         "sizeMB": 30.27
       }
     }
