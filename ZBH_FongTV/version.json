@@ -1,10 +1,23 @@
 {
-  "versionCode": 366,
-  "versionName": "3.4.22-ZBH",
-  "publishedAt": "2026-06-14T16:46:24Z",
-  "changelog": "WebView 预加载走反射",
-  "minSupportedVersionCode": 365,
+  "versionCode": 367,
+  "versionName": "3.4.23-ZBH",
+  "publishedAt": "2026-06-15T00:54:31Z",
+  "changelog": "Spider 反 fork 类源点击闪退修复 (SZYYDS 等): Decoder null-safe, App.getPackageName stack-walk, SpiderHook 接管 PackageInfo. 详见 SZYYDS_FIX.md",
+  "minSupportedVersionCode": 366,
   "variants": {
+    "leanback": {
+      "v7a": {
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "d05af1f7bfb9859369435d8f848f20eeae2792f878497dbdc6c11a6dc0e0731c",
+        "sizeMB": 30.18
+      }
+    },
     "mobile": {
       "v8a": {
         "urls": [
@@ -14,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "ec1eb55489dba4611d09b97e4e1579ae93c4ac2215b99059636fcca3d1fe842b",
+        "sha256": "8cdebe16c7c199f6411cfc21f3f37074ebecc6f86d66e95658fee43b88a2cbed",
         "sizeMB": 30.27
       }
     }
