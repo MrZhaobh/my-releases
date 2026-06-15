@@ -1,10 +1,23 @@
 {
-  "versionCode": 371,
-  "versionName": "3.4.27-ZBH",
-  "publishedAt": "2026-06-15T01:30:06Z",
-  "changelog": "保守回滚: 撤掉全局 setHook, 只留 getPackageName 栈感知",
-  "minSupportedVersionCode": 370,
+  "versionCode": 372,
+  "versionName": "3.4.28-ZBH",
+  "publishedAt": "2026-06-15T15:48:07Z",
+  "changelog": "回滚 SpiderHook 全局注入 (避免 Chromium WebView NPE / 首页转圈). 保留 getPackageName 栈感知防 spider 反 fork SIGKILL. 详见 SZYYDS_FIX.md",
+  "minSupportedVersionCode": 371,
   "variants": {
+    "leanback": {
+      "v7a": {
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "3a866a7fbe7b2bb831b1e6bc8227d64dff4f2933fb7d2dfc326205858d79c85f",
+        "sizeMB": 30.18
+      }
+    },
     "mobile": {
       "v8a": {
         "urls": [
@@ -14,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "b50e0332ba016ae13bcb3bc5517a27c646a3b2b223f218d7d4cabe9f9ab41dc6",
+        "sha256": "6df6e0b6c0013a5056d342980158496b03109047db7eb3955e98de0644719e12",
         "sizeMB": 30.27
       }
     }
