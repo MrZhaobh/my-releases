@@ -1,9 +1,9 @@
 {
-  "versionCode": 370,
-  "versionName": "3.4.26-ZBH",
-  "publishedAt": "2026-06-15T01:23:15Z",
-  "changelog": "修 getPackageName: 非 spider 调用绕过 hook 直返真包名",
-  "minSupportedVersionCode": 369,
+  "versionCode": 371,
+  "versionName": "3.4.27-ZBH",
+  "publishedAt": "2026-06-15T01:30:06Z",
+  "changelog": "保守回滚: 撤掉全局 setHook, 只留 getPackageName 栈感知",
+  "minSupportedVersionCode": 370,
   "variants": {
     "mobile": {
       "v8a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "4a419cf67db1432ae35fbac05358c2d607bc0c8fd9340013b75267f720751145",
+        "sha256": "b50e0332ba016ae13bcb3bc5517a27c646a3b2b223f218d7d4cabe9f9ab41dc6",
         "sizeMB": 30.27
       }
     }
