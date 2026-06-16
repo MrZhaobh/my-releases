@@ -1,9 +1,9 @@
 {
-  "versionCode": 374,
-  "versionName": "3.4.30-ZBH",
-  "publishedAt": "2026-06-16T01:12:13Z",
-  "changelog": "全局兜底 Toast 闪退: 装 UncaughtExceptionHandler 识别 'Adding window failed' / BadTokenException 吞掉, 不再因 Xiaomi/HyperOS 禁通知/悬浮窗而崩",
-  "minSupportedVersionCode": 373,
+  "versionCode": 375,
+  "versionName": "3.4.31-ZBH",
+  "publishedAt": "2026-06-16T07:49:06Z",
+  "changelog": "接入崩溃监控(Sentry),便于更快定位并修复崩溃问题",
+  "minSupportedVersionCode": 374,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,8 +14,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "02662cf0a5a70a9113da439ce3ecc2af9bc2dfe94a058bfdad45a8edc0a2a299",
-        "sizeMB": 30.18
+        "sha256": "42f1fd5eb4961e7433742ffc5ab8a7c344e35c9981efc020f600135528d24f69",
+        "sizeMB": 30.75
       }
     },
     "mobile": {
@@ -27,8 +27,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "677fd9c670621ea8df5ad289416b09824cdcae75d5afd0deb7cc26cddbcabb3e",
-        "sizeMB": 30.27
+        "sha256": "464cd216b385a0cb7a70db8a7b3edfcd60e0e66447e3c2792d5eee247ed722bd",
+        "sizeMB": 30.86
       }
     }
   },
