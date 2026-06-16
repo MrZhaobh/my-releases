@@ -1,10 +1,23 @@
 {
-  "versionCode": 373,
-  "versionName": "3.4.29-ZBH",
-  "publishedAt": "2026-06-16T01:08:08Z",
-  "changelog": "全局兜底: Toast addView 失败时吞掉异常, 防止 Xiaomi/Android16 等环境 Toast 闪退",
-  "minSupportedVersionCode": 372,
+  "versionCode": 374,
+  "versionName": "3.4.30-ZBH",
+  "publishedAt": "2026-06-16T01:12:13Z",
+  "changelog": "全局兜底 Toast 闪退: 装 UncaughtExceptionHandler 识别 'Adding window failed' / BadTokenException 吞掉, 不再因 Xiaomi/HyperOS 禁通知/悬浮窗而崩",
+  "minSupportedVersionCode": 373,
   "variants": {
+    "leanback": {
+      "v7a": {
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "02662cf0a5a70a9113da439ce3ecc2af9bc2dfe94a058bfdad45a8edc0a2a299",
+        "sizeMB": 30.18
+      }
+    },
     "mobile": {
       "v8a": {
         "urls": [
@@ -14,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "845e8ed063525492022ebe3a1740145970ea9afb8f9597cf8fd0887ca1fac648",
+        "sha256": "677fd9c670621ea8df5ad289416b09824cdcae75d5afd0deb7cc26cddbcabb3e",
         "sizeMB": 30.27
       }
     }
