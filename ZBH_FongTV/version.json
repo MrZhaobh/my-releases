@@ -1,9 +1,9 @@
 {
-  "versionCode": 375,
-  "versionName": "3.4.31-ZBH",
-  "publishedAt": "2026-06-16T07:49:06Z",
-  "changelog": "接入崩溃监控(Sentry),便于更快定位并修复崩溃问题",
-  "minSupportedVersionCode": 374,
+  "versionCode": 376,
+  "versionName": "3.4.32-ZBH",
+  "publishedAt": "2026-06-16T15:58:06Z",
+  "changelog": "增加首页/分类/详情 loading 转圈 25s 超时自动收回；接入 Sentry 启动链路面包屑（App.onCreate / AutoSourceBootstrap 各步 / VodConfig.load 成败）。下次卡死时 Sentry 后台能直接看到卡在哪一步。",
+  "minSupportedVersionCode": 375,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "42f1fd5eb4961e7433742ffc5ab8a7c344e35c9981efc020f600135528d24f69",
+        "sha256": "60b504def238dd31f7439d6b108657357415dc05b0730133e52da152770ab0d2",
         "sizeMB": 30.75
       }
     },
@@ -27,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "464cd216b385a0cb7a70db8a7b3edfcd60e0e66447e3c2792d5eee247ed722bd",
+        "sha256": "1b375832360fb10f19c1424f26a171d9ea7f4b5478344be7e1e79486f396bd0a",
         "sizeMB": 30.86
       }
     }
