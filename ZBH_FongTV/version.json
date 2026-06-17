@@ -1,9 +1,9 @@
 {
-  "versionCode": 377,
-  "versionName": "3.4.33-ZBH",
-  "publishedAt": "2026-06-17T00:46:30Z",
-  "changelog": "1. VodConfig.load 加 30s 强制超时，spider 死锁不再让首页转圈卡死\n2. mobile 底部导航栏（首页/直播/设置）启动时立即显示，转圈期间也能进设置切源\n3. 所有 GitHub 域请求自动走多代理 fallback（gh-proxy/ghfast/ghproxy/idayer），改善国内访问 raw.githubusercontent.com 卡死\n4. Sentry 每条上报附带最近 1MB logcat（LogcatRing 环形 buffer），后台 issue 直接下载完整日志",
-  "minSupportedVersionCode": 376,
+  "versionCode": 378,
+  "versionName": "3.4.34-ZBH",
+  "publishedAt": "2026-06-17T06:03:53Z",
+  "changelog": "优化启动稳定性:更新提示改为内容加载完成后再弹出,避免弹框卡顿无响应;后台新增主线程卡顿监控,用于定位偶发的启动卡死。",
+  "minSupportedVersionCode": 377,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "add1475579286661dcf76b26e34dc50bef7fcb41e0eff1d4cce7409cd4dcbcc0",
+        "sha256": "361c8e5e96715b6746f455092d0f01dc4588855374b9b758a3df4f5c465b2924",
         "sizeMB": 30.75
       }
     },
@@ -27,13 +27,12 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "101711b4b3f9faf68630193ad65f3254578294a8a34fff8f862e4e904f29a909",
+        "sha256": "5b68f05378a767b426417553ef715516994b3325d8b44582e03ee461825b10b1",
         "sizeMB": 30.86
       }
     }
   },
   "mirrors": {
-    "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/version.json",
-    "gitee": "https://gitee.com/mrzhaobh/my-releases/raw/main/ZBH_FongTV/version.json"
+    "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/version.json"
   }
 }
