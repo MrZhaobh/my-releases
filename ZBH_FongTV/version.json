@@ -1,9 +1,9 @@
 {
-  "versionCode": 378,
-  "versionName": "3.4.34-ZBH",
-  "publishedAt": "2026-06-17T06:03:53Z",
-  "changelog": "优化启动稳定性:更新提示改为内容加载完成后再弹出,避免弹框卡顿无响应;后台新增主线程卡顿监控,用于定位偶发的启动卡死。",
-  "minSupportedVersionCode": 377,
+  "versionCode": 379,
+  "versionName": "3.4.35-ZBH",
+  "publishedAt": "2026-06-17T12:11:15Z",
+  "changelog": "⚠️本版包名改回原版,无法覆盖升级:请先卸载旧版再安装本版(否则会装成两个App)。本版彻底根治部分源(如SZYYDS)点视频闪退/首页卡死ANR;并保留启动稳定性优化与卡顿监控。",
+  "minSupportedVersionCode": 378,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "361c8e5e96715b6746f455092d0f01dc4588855374b9b758a3df4f5c465b2924",
+        "sha256": "448a1dfdb09597223cb87a948f400b08f2c6a921678236450158ad75edb453e3",
         "sizeMB": 30.75
       }
     },
@@ -27,7 +27,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "5b68f05378a767b426417553ef715516994b3325d8b44582e03ee461825b10b1",
+        "sha256": "5f02f49f3a727c40faadbbe94b3aa8081bdc3f2287c7c35b65ec23772499ff73",
         "sizeMB": 30.86
       }
     }
