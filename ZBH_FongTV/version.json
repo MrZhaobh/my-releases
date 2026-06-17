@@ -1,9 +1,9 @@
 {
-  "versionCode": 379,
-  "versionName": "3.4.35-ZBH",
-  "publishedAt": "2026-06-17T12:11:15Z",
-  "changelog": "⚠️本版包名改回原版,无法覆盖升级:请先卸载旧版再安装本版(否则会装成两个App)。本版彻底根治部分源(如SZYYDS)点视频闪退/首页卡死ANR;并保留启动稳定性优化与卡顿监控。",
-  "minSupportedVersionCode": 378,
+  "versionCode": 380,
+  "versionName": "3.4.36-ZBH",
+  "publishedAt": "2026-06-17T14:31:56Z",
+  "changelog": "add Sentry bootstrap.summary uplink for diagnostics",
+  "minSupportedVersionCode": 379,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,21 +14,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "448a1dfdb09597223cb87a948f400b08f2c6a921678236450158ad75edb453e3",
+        "sha256": "4c1a9d9d7267aeb7fce1266e5ec3f1d1d6e80ba4e18412abf74f239da6d723bc",
         "sizeMB": 30.75
-      }
-    },
-    "mobile": {
-      "v8a": {
-        "urls": [
-          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
-        ],
-        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "5f02f49f3a727c40faadbbe94b3aa8081bdc3f2287c7c35b65ec23772499ff73",
-        "sizeMB": 30.86
       }
     }
   },
