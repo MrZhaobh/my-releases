@@ -1,9 +1,9 @@
 {
-  "versionCode": 380,
-  "versionName": "3.4.36-ZBH",
-  "publishedAt": "2026-06-17T14:31:56Z",
-  "changelog": "add Sentry bootstrap.summary uplink for diagnostics",
-  "minSupportedVersionCode": 379,
+  "versionCode": 381,
+  "versionName": "3.4.37-ZBH",
+  "publishedAt": "2026-06-17T15:02:18Z",
+  "changelog": "classify bootstrap fetch failures (dns/timeout/tls/http_xxx) and report each to Sentry",
+  "minSupportedVersionCode": 380,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "4c1a9d9d7267aeb7fce1266e5ec3f1d1d6e80ba4e18412abf74f239da6d723bc",
+        "sha256": "911f15f5ea28e0300e9a7f48629df8bb4b35131e83cdbfb089be5a380c61c0fb",
         "sizeMB": 30.75
       }
     }
