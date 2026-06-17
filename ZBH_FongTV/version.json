@@ -1,9 +1,9 @@
 {
-  "versionCode": 381,
+  "versionCode": 382,
   "versionName": "3.4.37-ZBH",
-  "publishedAt": "2026-06-17T15:02:18Z",
-  "changelog": "classify bootstrap fetch failures (dns/timeout/tls/http_xxx) and report each to Sentry",
-  "minSupportedVersionCode": 380,
+  "publishedAt": "2026-06-17T15:44:18Z",
+  "changelog": "首次安装无转圈修复: bootstrap 成功后补发 RefreshEvent 通知首页自动刷新",
+  "minSupportedVersionCode": 382,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "911f15f5ea28e0300e9a7f48629df8bb4b35131e83cdbfb089be5a380c61c0fb",
+        "sha256": "2a190669d037883d5e8f3b8f2c3aa92eb461936903f7600f8afb8d398e0df648",
         "sizeMB": 30.75
       }
     }
