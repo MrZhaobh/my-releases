@@ -1,9 +1,9 @@
 {
-  "versionCode": 382,
+  "versionCode": 383,
   "versionName": "3.4.37-ZBH",
-  "publishedAt": "2026-06-17T15:44:18Z",
-  "changelog": "首次安装无转圈修复: bootstrap 成功后补发 RefreshEvent 通知首页自动刷新",
-  "minSupportedVersionCode": 382,
+  "publishedAt": "2026-06-17T15:55:07Z",
+  "changelog": "新增 DebugServer: 端口 8888 内嵌 Web 日志控制台，支持查看 logcat/VodConfig/OkHttp 请求，一键复制 URL 发给 Claude 分析",
+  "minSupportedVersionCode": 383,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "2a190669d037883d5e8f3b8f2c3aa92eb461936903f7600f8afb8d398e0df648",
+        "sha256": "78115c556980e478eb3bc9aa8385dd51adaad135bc3ff506f1920803f0b34162",
         "sizeMB": 30.75
       }
     }
