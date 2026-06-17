@@ -1,9 +1,9 @@
 {
-  "versionCode": 383,
+  "versionCode": 384,
   "versionName": "3.4.37-ZBH",
-  "publishedAt": "2026-06-17T15:55:07Z",
-  "changelog": "新增 DebugServer: 端口 8888 内嵌 Web 日志控制台，支持查看 logcat/VodConfig/OkHttp 请求，一键复制 URL 发给 Claude 分析",
-  "minSupportedVersionCode": 383,
+  "publishedAt": "2026-06-17T16:02:26Z",
+  "changelog": "设置页显示调试 IP:端口，点击跳转浏览器或复制到剪贴板",
+  "minSupportedVersionCode": 384,
   "variants": {
     "leanback": {
       "v7a": {
@@ -14,7 +14,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "78115c556980e478eb3bc9aa8385dd51adaad135bc3ff506f1920803f0b34162",
+        "sha256": "1bf820a72f417a1f6f099c0d5ac8bde036734c5d243dbc59c41b7c2b81647dfc",
         "sizeMB": 30.75
       }
     }
