@@ -1,15 +1,15 @@
 {
-  "versionCode": 387,
-  "versionName": "3.4.40-ZBH",
-  "publishedAt": "2026-06-18T10:52:39Z",
-  "changelog": "修复设置页检查更新点击无反应；修复更新授权后卡住、重启不再提示的问题（授权后自动继续下载）；更新改为非强制可稍后再说；首页无内容时自动切换到可用源。",
-  "minSupportedVersionCode": 386,
+  "versionCode": 388,
+  "versionName": "3.4.41-ZBH",
+  "publishedAt": "2026-06-18T11:55:13Z",
+  "changelog": "更新弹框新增「浏览器下载」按钮(应用内/系统下载之外的兜底通道,TV 与移动端通用)",
+  "minSupportedVersionCode": 387,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 387,
-        "versionName": "3.4.40-ZBH",
-        "changelog": "修复设置页检查更新点击无反应；修复更新授权后卡住、重启不再提示的问题（授权后自动继续下载）；更新改为非强制可稍后再说；首页无内容时自动切换到可用源。",
+        "versionCode": 388,
+        "versionName": "3.4.41-ZBH",
+        "changelog": "更新弹框新增「浏览器下载」按钮(应用内/系统下载之外的兜底通道,TV 与移动端通用)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "3e32920de30f60220f11ad7e8b36d638d8da71131a7c66b3b9b90c169c92b279",
+        "sha256": "c24480da92258f9b4e37c84cfa5d264806e543f6357a96fe3ef8f9a92e75a8ad",
         "sizeMB": 30.76
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 387,
-        "versionName": "3.4.40-ZBH",
-        "changelog": "修复设置页检查更新点击无反应；修复更新授权后卡住、重启不再提示的问题（授权后自动继续下载）；更新改为非强制可稍后再说；首页无内容时自动切换到可用源。",
+        "versionCode": 388,
+        "versionName": "3.4.41-ZBH",
+        "changelog": "更新弹框新增「浏览器下载」按钮(应用内/系统下载之外的兜底通道,TV 与移动端通用)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "56e17387b20a6c69685a73ebca7838252009bd12986308ee308f9fea2bfc757f",
+        "sha256": "8a49a6660b2c4b5a2ce446dc71915dbdab435dd21385fddb67c1d77b545449e9",
         "sizeMB": 30.87
       }
     }
