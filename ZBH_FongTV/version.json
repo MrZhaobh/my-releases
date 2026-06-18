@@ -1,25 +1,44 @@
 {
-    "versionCode":  385,
-    "versionName":  "3.4.38-ZBH",
-    "publishedAt":  "2026-06-17T16:23:42Z",
-    "changelog":  "移动端设置页新增「调试」页面，可在应用内直接查看日志、网络请求、VodConfig 状态；设置页显示调试 URL，支持复制",
-    "minSupportedVersionCode":  384,
-    "variants":  {
-                     "mobile":  {
-                                    "v8a":  {
-                                                "urls":  [
-                                                             "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                             "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                             "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
-                                                         ],
-                                                "github":  "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                "gitee":  "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                "sha256":  "cd47f0b11374d0a64563638bb9f601156cc27279c8bf5b6003d828607032905e",
-                                                "sizeMB":  30.87
-                                            }
-                                }
-                 },
-    "mirrors":  {
-
-                }
+  "versionCode": 386,
+  "versionName": "3.4.39-ZBH",
+  "publishedAt": "2026-06-18T02:47:58Z",
+  "changelog": "1. 自动更新检查恢复 Gitee 镜像（国内不再依赖 GitHub 代理）；2. 修复某 channel 单独发版后，另一 channel 无法弹更新框的问题；3. 调试/发版脚本若干稳健性改进",
+  "minSupportedVersionCode": 385,
+  "variants": {
+    "leanback": {
+      "v7a": {
+        "versionCode": 386,
+        "versionName": "3.4.39-ZBH",
+        "changelog": "1. 自动更新检查恢复 Gitee 镜像（国内不再依赖 GitHub 代理）；2. 修复某 channel 单独发版后，另一 channel 无法弹更新框的问题；3. 调试/发版脚本若干稳健性改进",
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "4b77ce2997749f1dfdd551c4af79f988a4f1abaecfb76cf22ba07b85d3a5d8f4",
+        "sizeMB": 30.76
+      }
+    },
+    "mobile": {
+      "v8a": {
+        "versionCode": 386,
+        "versionName": "3.4.39-ZBH",
+        "changelog": "1. 自动更新检查恢复 Gitee 镜像（国内不再依赖 GitHub 代理）；2. 修复某 channel 单独发版后，另一 channel 无法弹更新框的问题；3. 调试/发版脚本若干稳健性改进",
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "sha256": "781f6ca3b34557fb29f4347f9abb7e821ebc0f4159ec209c51ccd31929e95ffa",
+        "sizeMB": 30.87
+      }
+    }
+  },
+  "mirrors": {
+    "github": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/version.json"
+  }
 }
