@@ -1,9 +1,9 @@
 {
-  "versionCode": 401,
-  "versionName": "3.4.54-ZBH",
-  "publishedAt": "2026-06-19T08:05:22Z",
-  "changelog": "设置-清除缓存改成三选一：仅清缓存 / 清缓存+偏好 / 完全重置 App (清空 DB + 偏好 + 文件 + 缓存 + 杀进程,跟新装一样)",
-  "minSupportedVersionCode": 400,
+  "versionCode": 402,
+  "versionName": "3.4.55-ZBH",
+  "publishedAt": "2026-06-19T10:55:51Z",
+  "changelog": "下载页对比度提升:状态/进度/速率/ETA 文字升 primary,失败原因改红色加粗,进度条 tint 主题色,status 按状态语义染色 (下载中蓝/已完成绿/失败红/暂停默认)",
+  "minSupportedVersionCode": 401,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 401,
-        "versionName": "3.4.54-ZBH",
-        "changelog": "设置-清除缓存改成三选一：仅清缓存 / 清缓存+偏好 / 完全重置 App (清空 DB + 偏好 + 文件 + 缓存 + 杀进程,跟新装一样)",
+        "versionCode": 402,
+        "versionName": "3.4.55-ZBH",
+        "changelog": "下载页对比度提升:状态/进度/速率/ETA 文字升 primary,失败原因改红色加粗,进度条 tint 主题色,status 按状态语义染色 (下载中蓝/已完成绿/失败红/暂停默认)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "c01bc6f112b106440279466df06c9a51dfbc9b61b146402f87047976f0c174d5",
+        "sha256": "86d839c5a50069dce15156093bbadf78eed5351ed4bbc6ecb71b808cfbb82908",
         "sizeMB": 30.94
       }
     }
