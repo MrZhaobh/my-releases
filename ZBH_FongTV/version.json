@@ -1,9 +1,9 @@
 {
-  "versionCode": 403,
-  "versionName": "3.4.56-ZBH",
-  "publishedAt": "2026-06-19T11:40:05Z",
-  "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
-  "minSupportedVersionCode": 402,
+  "versionCode": 404,
+  "versionName": "3.4.57-ZBH",
+  "publishedAt": "2026-06-19T15:27:53Z",
+  "changelog": "设置-点播-历史按钮顶部加搜索框 (TextInputLayout + 清除 X),输入关键词实时过滤 name/url,不区分大小写;直播历史同步获得搜索能力",
+  "minSupportedVersionCode": 403,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 403,
-        "versionName": "3.4.56-ZBH",
-        "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
+        "versionCode": 404,
+        "versionName": "3.4.57-ZBH",
+        "changelog": "设置-点播-历史按钮顶部加搜索框 (TextInputLayout + 清除 X),输入关键词实时过滤 name/url,不区分大小写;直播历史同步获得搜索能力",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "40bffde1ee0c3282502b754888d65b8b90df8fbbaabafcae7789e3caf96c46eb",
+        "sha256": "2e218b22feb31269d9788a74c282cd5331310ddb3d55cf4a49dce964720b332f",
         "sizeMB": 30.94
       }
     }
