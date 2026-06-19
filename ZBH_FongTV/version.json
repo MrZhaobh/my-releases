@@ -1,15 +1,15 @@
 {
-  "versionCode": 402,
-  "versionName": "3.4.55-ZBH",
-  "publishedAt": "2026-06-19T10:55:51Z",
-  "changelog": "下载页对比度提升:状态/进度/速率/ETA 文字升 primary,失败原因改红色加粗,进度条 tint 主题色,status 按状态语义染色 (下载中蓝/已完成绿/失败红/暂停默认)",
-  "minSupportedVersionCode": 401,
+  "versionCode": 403,
+  "versionName": "3.4.56-ZBH",
+  "publishedAt": "2026-06-19T11:40:05Z",
+  "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
+  "minSupportedVersionCode": 402,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 400,
-        "versionName": "3.4.53-ZBH",
-        "changelog": "源体检上报后保留勾选状态方便接着本地移除;本地移除时同步删除设置-点播-历史里的 Config 记录,不再残留",
+        "versionCode": 403,
+        "versionName": "3.4.56-ZBH",
+        "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "e8624c582dcf33f91f40350cf838052a1bb8ee76c094f6bd17ec68c46b5b2fad",
+        "sha256": "7ce808a5089f8210aa1a0116dcfb5f76780ab0078c96130c46bc59e2c513081a",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 402,
-        "versionName": "3.4.55-ZBH",
-        "changelog": "下载页对比度提升:状态/进度/速率/ETA 文字升 primary,失败原因改红色加粗,进度条 tint 主题色,status 按状态语义染色 (下载中蓝/已完成绿/失败红/暂停默认)",
+        "versionCode": 403,
+        "versionName": "3.4.56-ZBH",
+        "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "86d839c5a50069dce15156093bbadf78eed5351ed4bbc6ecb71b808cfbb82908",
+        "sha256": "40bffde1ee0c3282502b754888d65b8b90df8fbbaabafcae7789e3caf96c46eb",
         "sizeMB": 30.94
       }
     }
