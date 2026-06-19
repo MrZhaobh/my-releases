@@ -1,9 +1,9 @@
 {
-  "versionCode": 404,
-  "versionName": "3.4.57-ZBH",
-  "publishedAt": "2026-06-19T15:27:53Z",
-  "changelog": "设置-点播-历史按钮顶部加搜索框 (TextInputLayout + 清除 X),输入关键词实时过滤 name/url,不区分大小写;直播历史同步获得搜索能力",
-  "minSupportedVersionCode": 403,
+  "versionCode": 405,
+  "versionName": "3.4.58-ZBH",
+  "publishedAt": "2026-06-19T15:48:00Z",
+  "changelog": "设置-点播-历史里手动删 VOD 配置时,自动加入本地黑名单并上报 Sentry;调试页副标改为单击打开黑名单管理对话框 (查看/单条移除/清空全部)",
+  "minSupportedVersionCode": 404,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 404,
-        "versionName": "3.4.57-ZBH",
-        "changelog": "设置-点播-历史按钮顶部加搜索框 (TextInputLayout + 清除 X),输入关键词实时过滤 name/url,不区分大小写;直播历史同步获得搜索能力",
+        "versionCode": 405,
+        "versionName": "3.4.58-ZBH",
+        "changelog": "设置-点播-历史里手动删 VOD 配置时,自动加入本地黑名单并上报 Sentry;调试页副标改为单击打开黑名单管理对话框 (查看/单条移除/清空全部)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "2e218b22feb31269d9788a74c282cd5331310ddb3d55cf4a49dce964720b332f",
+        "sha256": "fda44ddcc0e79ee7598cabb85fca9c7465f072cdbd451e887ff1e48ee0b06cb3",
         "sizeMB": 30.94
       }
     }
