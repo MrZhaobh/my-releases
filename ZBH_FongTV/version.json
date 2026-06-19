@@ -1,9 +1,9 @@
 {
-  "versionCode": 400,
-  "versionName": "3.4.53-ZBH",
-  "publishedAt": "2026-06-19T07:31:32Z",
-  "changelog": "源体检上报后保留勾选状态方便接着本地移除;本地移除时同步删除设置-点播-历史里的 Config 记录,不再残留",
-  "minSupportedVersionCode": 399,
+  "versionCode": 401,
+  "versionName": "3.4.54-ZBH",
+  "publishedAt": "2026-06-19T08:05:22Z",
+  "changelog": "设置-清除缓存改成三选一：仅清缓存 / 清缓存+偏好 / 完全重置 App (清空 DB + 偏好 + 文件 + 缓存 + 杀进程,跟新装一样)",
+  "minSupportedVersionCode": 400,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 400,
-        "versionName": "3.4.53-ZBH",
-        "changelog": "源体检上报后保留勾选状态方便接着本地移除;本地移除时同步删除设置-点播-历史里的 Config 记录,不再残留",
+        "versionCode": 401,
+        "versionName": "3.4.54-ZBH",
+        "changelog": "设置-清除缓存改成三选一：仅清缓存 / 清缓存+偏好 / 完全重置 App (清空 DB + 偏好 + 文件 + 缓存 + 杀进程,跟新装一样)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "571131814d5a0fe3b7e4fa4031df79e2c278f6923c7aa6d4b1779de5776ee9a0",
+        "sha256": "c01bc6f112b106440279466df06c9a51dfbc9b61b146402f87047976f0c174d5",
         "sizeMB": 30.94
       }
     }
