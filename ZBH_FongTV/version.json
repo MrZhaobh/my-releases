@@ -1,15 +1,15 @@
 {
-  "versionCode": 407,
-  "versionName": "3.4.60-ZBH",
-  "publishedAt": "2026-06-20T10:31:44Z",
-  "changelog": "弹幕跨集自动追集;安装权限对话框兼容无 per-app 授权页的 TV ROM;leanback 首页历史区刷新时机优化",
-  "minSupportedVersionCode": 406,
+  "versionCode": 408,
+  "versionName": "3.4.61-ZBH",
+  "publishedAt": "2026-06-20T11:12:18Z",
+  "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
+  "minSupportedVersionCode": 407,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 407,
-        "versionName": "3.4.60-ZBH",
-        "changelog": "弹幕跨集自动追集;安装权限对话框兼容无 per-app 授权页的 TV ROM;leanback 首页历史区刷新时机优化",
+        "versionCode": 408,
+        "versionName": "3.4.61-ZBH",
+        "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "0946e71f8fcbebcdef7f1d89dbb058d52afdacf77097dbb74dce314a77df7eaa",
+        "sha256": "a44722cb896ba12e1ed8f2c214444f0f68f4eaf3184a664130e5674747ebecc2",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 407,
-        "versionName": "3.4.60-ZBH",
-        "changelog": "弹幕跨集自动追集;安装权限对话框兼容无 per-app 授权页的 TV ROM;leanback 首页历史区刷新时机优化",
+        "versionCode": 408,
+        "versionName": "3.4.61-ZBH",
+        "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "4b911a2ffded336caf32a9bf356fa1fcf1bfe4ab4ca2814fafd9d7de5f42e85d",
+        "sha256": "4fef08bcf3683ddb7b331e93b558c4964f72f2edb3a2493d71a07eb9c71870c2",
         "sizeMB": 30.94
       }
     }
