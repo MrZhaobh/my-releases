@@ -1,9 +1,9 @@
 {
-  "versionCode": 418,
-  "versionName": "3.4.71-ZBH",
-  "publishedAt": "2026-06-20T17:13:03Z",
-  "changelog": "v418 mobile-only: 修 applyAutoShow 在 empty 时 return → DANMAKU_SHOW 事件根本没 post → handleDanmakuShown 不跑 → cache 永远空. 改成永远 fire 事件让 handleDanmakuShown 自己决定. 加 dialog.onItemClick / dialog.applyAutoShow / event.recv / dialog.open / dialog.item 日志, 排错链路完整",
-  "minSupportedVersionCode": 417,
+  "versionCode": 419,
+  "versionName": "3.4.72-ZBH",
+  "publishedAt": "2026-06-20T17:26:41Z",
+  "changelog": "v419 mobile-only: 修两个 bug. 1) getCurrentEpisodeIdx 用 Episode.getNumber() 不用 getIndex() — 仓库内 setIndex 0 调用, ep.index 永远 default 0, 切集 delta 永远 0 相对位置追集逻辑上无法工作. 改用 getNumber 从 epname 解析的真集号. 2) 加 ui.onDanmakuShow 埋点 + players.setItem caller stack frame, 定位用户实际点的是哪个按钮 + 谁调的 setDanmaku",
+  "minSupportedVersionCode": 418,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 418,
-        "versionName": "3.4.71-ZBH",
-        "changelog": "v418 mobile-only: 修 applyAutoShow 在 empty 时 return → DANMAKU_SHOW 事件根本没 post → handleDanmakuShown 不跑 → cache 永远空. 改成永远 fire 事件让 handleDanmakuShown 自己决定. 加 dialog.onItemClick / dialog.applyAutoShow / event.recv / dialog.open / dialog.item 日志, 排错链路完整",
+        "versionCode": 419,
+        "versionName": "3.4.72-ZBH",
+        "changelog": "v419 mobile-only: 修两个 bug. 1) getCurrentEpisodeIdx 用 Episode.getNumber() 不用 getIndex() — 仓库内 setIndex 0 调用, ep.index 永远 default 0, 切集 delta 永远 0 相对位置追集逻辑上无法工作. 改用 getNumber 从 epname 解析的真集号. 2) 加 ui.onDanmakuShow 埋点 + players.setItem caller stack frame, 定位用户实际点的是哪个按钮 + 谁调的 setDanmaku",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "271ec68c86adb89c352aa11adada5b28bfdb22a88e6de7a82a6b938241cf8827",
+        "sha256": "11376c1ac00f77965da246edc91311c1d498a087c1877db9905dc8ca5b5f7be7",
         "sizeMB": 30.95
       }
     }
