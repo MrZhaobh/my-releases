@@ -1,15 +1,15 @@
 {
-  "versionCode": 410,
-  "versionName": "3.4.63-ZBH",
-  "publishedAt": "2026-06-20T12:14:47Z",
-  "changelog": "弹幕调试版 v410: 加 Sentry 全链路 instrumentation (init/dialog.open/select/resolve/players.setList 5 个节点), 复现后看 Sentry 后台 zbh.tag=danmaku.* 定位断点",
-  "minSupportedVersionCode": 409,
+  "versionCode": 411,
+  "versionName": "3.4.64-ZBH",
+  "publishedAt": "2026-06-20T12:54:44Z",
+  "changelog": "弹幕诊断 v411: DebugServer 加 /danmaku 路由, 本地环形 buffer 不依赖 Sentry. 切完集访问 http://<device-ip>:8888/danmaku 复制日志贴回开发. 加 dialog.open.item / select.cached / resolve.matched 详细子日志, 含每条候选 name+url",
+  "minSupportedVersionCode": 410,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 410,
-        "versionName": "3.4.63-ZBH",
-        "changelog": "弹幕调试版 v410: 加 Sentry 全链路 instrumentation (init/dialog.open/select/resolve/players.setList 5 个节点), 复现后看 Sentry 后台 zbh.tag=danmaku.* 定位断点",
+        "versionCode": 411,
+        "versionName": "3.4.64-ZBH",
+        "changelog": "弹幕诊断 v411: DebugServer 加 /danmaku 路由, 本地环形 buffer 不依赖 Sentry. 切完集访问 http://<device-ip>:8888/danmaku 复制日志贴回开发. 加 dialog.open.item / select.cached / resolve.matched 详细子日志, 含每条候选 name+url",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "a853b8afe9539624ef9a65c19d544be1c1f81e88f230c47e40c69f1480ec6fda",
+        "sha256": "f6dcd31ecfae7ec17d711089f56c317f2857a895535614981d5874996b73750f",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 410,
-        "versionName": "3.4.63-ZBH",
-        "changelog": "弹幕调试版 v410: 加 Sentry 全链路 instrumentation (init/dialog.open/select/resolve/players.setList 5 个节点), 复现后看 Sentry 后台 zbh.tag=danmaku.* 定位断点",
+        "versionCode": 411,
+        "versionName": "3.4.64-ZBH",
+        "changelog": "弹幕诊断 v411: DebugServer 加 /danmaku 路由, 本地环形 buffer 不依赖 Sentry. 切完集访问 http://<device-ip>:8888/danmaku 复制日志贴回开发. 加 dialog.open.item / select.cached / resolve.matched 详细子日志, 含每条候选 name+url",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "a464db96bd92d8541945fb022fe2638efb67f9fefedb93f91d7876ec71342fb2",
+        "sha256": "6d326de19ce85b9e585536474b9578f2bbec1ef9a0311a7fc3e7b5d94c419706",
         "sizeMB": 30.95
       }
     }
