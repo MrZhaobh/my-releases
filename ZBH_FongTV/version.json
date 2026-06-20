@@ -1,15 +1,15 @@
 {
-  "versionCode": 412,
-  "versionName": "3.4.65-ZBH",
-  "publishedAt": "2026-06-20T13:30:42Z",
-  "changelog": "回滚: 撤销 v407-v411 所有弹幕跨集追集 + Sentry 埋点 + DebugServer /danmaku 路由 + DanmakuMatcher/DanmakuDiagRing/Players.DanmakuResolver. 弹幕选项行为退回 v406 — 选了就选了, 切集自己重选, 不再自动 match",
-  "minSupportedVersionCode": 411,
+  "versionCode": 413,
+  "versionName": "3.4.66-ZBH",
+  "publishedAt": "2026-06-20T14:09:51Z",
+  "changelog": "弹幕加载链路诊断 v413: DebugServer /danmaku 路由回归 + Loader/Parser/DanPlayer 全栈埋点 (HTTP 响应 / Parser 行数 entry 数 / DanmakuView 准备状态 / show 实际生效 / Player STATE_READY 时机). 不动业务逻辑, 仅诊断. 复现后访问 http://<ip>:8888/danmaku 复制贴回开发查 mobile 加载 5万+ 条但不显示的根因",
+  "minSupportedVersionCode": 412,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 412,
-        "versionName": "3.4.65-ZBH",
-        "changelog": "回滚: 撤销 v407-v411 所有弹幕跨集追集 + Sentry 埋点 + DebugServer /danmaku 路由 + DanmakuMatcher/DanmakuDiagRing/Players.DanmakuResolver. 弹幕选项行为退回 v406 — 选了就选了, 切集自己重选, 不再自动 match",
+        "versionCode": 413,
+        "versionName": "3.4.66-ZBH",
+        "changelog": "弹幕加载链路诊断 v413: DebugServer /danmaku 路由回归 + Loader/Parser/DanPlayer 全栈埋点 (HTTP 响应 / Parser 行数 entry 数 / DanmakuView 准备状态 / show 实际生效 / Player STATE_READY 时机). 不动业务逻辑, 仅诊断. 复现后访问 http://<ip>:8888/danmaku 复制贴回开发查 mobile 加载 5万+ 条但不显示的根因",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "680cc31838a55ac6cc30ba4a47a1bbd191d8d375f8e532e257d4e9886bb1c88c",
+        "sha256": "2631b8e4f83513225f1aaab835694d6fb8fb35b3edd40c5d79ec708a0be31ad6",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 412,
-        "versionName": "3.4.65-ZBH",
-        "changelog": "回滚: 撤销 v407-v411 所有弹幕跨集追集 + Sentry 埋点 + DebugServer /danmaku 路由 + DanmakuMatcher/DanmakuDiagRing/Players.DanmakuResolver. 弹幕选项行为退回 v406 — 选了就选了, 切集自己重选, 不再自动 match",
+        "versionCode": 413,
+        "versionName": "3.4.66-ZBH",
+        "changelog": "弹幕加载链路诊断 v413: DebugServer /danmaku 路由回归 + Loader/Parser/DanPlayer 全栈埋点 (HTTP 响应 / Parser 行数 entry 数 / DanmakuView 准备状态 / show 实际生效 / Player STATE_READY 时机). 不动业务逻辑, 仅诊断. 复现后访问 http://<ip>:8888/danmaku 复制贴回开发查 mobile 加载 5万+ 条但不显示的根因",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,8 +33,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "dc44bf858e2ac458c2c4818549624108abfc40866044cfbd403ca6981c543d9d",
-        "sizeMB": 30.94
+        "sha256": "809da9e387b2ba0582fa6f285aafb35c34145bb8ab9b24d70bb082cdc766dd6f",
+        "sizeMB": 30.95
       }
     }
   },
