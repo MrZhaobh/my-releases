@@ -1,9 +1,9 @@
 {
-  "versionCode": 414,
-  "versionName": "3.4.67-ZBH",
-  "publishedAt": "2026-06-20T14:39:09Z",
-  "changelog": "弹幕修 v414: mobile 选弹幕自动拨 Setting.isDanmakuShow=true + 发 RefreshEvent.DANMAKU_SHOW 让 VideoActivity 刷新 mBinding.danmaku 的 Android visibility + toggle icon. 修 v413 诊断定位的 'isDanmakuShow default false → view 永远 INVISIBLE 5万条加载也看不到' UX 坑",
-  "minSupportedVersionCode": 413,
+  "versionCode": 415,
+  "versionName": "3.4.68-ZBH",
+  "publishedAt": "2026-06-20T16:02:41Z",
+  "changelog": "弹幕修 v415 mobile-only: v414 漏了第三方插件 (wexdanmu/autodanmu) 经 EventBus RefreshEvent.DANMAKU 推送的路径. mobile VideoActivity 的 DANMAKU 分支补上同样的 isDanmakuShow=true + showDanmaku() + checkDanmakuImg(). 任何路径设非空弹幕都自动显示",
+  "minSupportedVersionCode": 414,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 414,
-        "versionName": "3.4.67-ZBH",
-        "changelog": "弹幕修 v414: mobile 选弹幕自动拨 Setting.isDanmakuShow=true + 发 RefreshEvent.DANMAKU_SHOW 让 VideoActivity 刷新 mBinding.danmaku 的 Android visibility + toggle icon. 修 v413 诊断定位的 'isDanmakuShow default false → view 永远 INVISIBLE 5万条加载也看不到' UX 坑",
+        "versionCode": 415,
+        "versionName": "3.4.68-ZBH",
+        "changelog": "弹幕修 v415 mobile-only: v414 漏了第三方插件 (wexdanmu/autodanmu) 经 EventBus RefreshEvent.DANMAKU 推送的路径. mobile VideoActivity 的 DANMAKU 分支补上同样的 isDanmakuShow=true + showDanmaku() + checkDanmakuImg(). 任何路径设非空弹幕都自动显示",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "2873a14a4c9a6869a8670ff7eb2cda9c109dc31588e02cc4d733ea4b2f72ab74",
+        "sha256": "16a6d3175814be907e99b37593420a4f1ef54e941fe5113c6dd4e210a5375c92",
         "sizeMB": 30.95
       }
     }
