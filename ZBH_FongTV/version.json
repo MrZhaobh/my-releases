@@ -1,9 +1,9 @@
 {
-  "versionCode": 416,
-  "versionName": "3.4.69-ZBH",
-  "publishedAt": "2026-06-20T16:41:13Z",
-  "changelog": "弹幕跨集相对位置追集 v416 mobile-only: 1) Setting.isDanmakuShow 默认 true (FongMi 上游坑) 2) 用户从 dialog 选定时缓存整张 candidates list + index + episode 3) 切集时插件推过来的 URL 用相对位置在缓存里查 (newIdx=cachedIdx+delta) 强制覆盖, 不动 list 4) 完整日志到 /danmaku",
-  "minSupportedVersionCode": 415,
+  "versionCode": 417,
+  "versionName": "3.4.70-ZBH",
+  "publishedAt": "2026-06-20T16:57:46Z",
+  "changelog": "v417 mobile-only 修 v416 NPE: handleDanmakuPushed 第一行 getCurrentEpisodeIdx → mEpisodeAdapter.getActivated() 在插件早期 push DANMAKU 事件时 NPE, 整个 handler 抛错被 EventBus 吞掉, setDanmaku 没执行, mPlayers.getDanmakus 一直为空 → 点弹幕 dialog 弹出来空白. 修: getCurrentEpisodeIdx 全 try/catch + null 守护; handleDanmakuPushed 整段 try/catch 抛错也退回到 v415 直接用插件 URL 的行为; handleDanmakuShown 缓存逻辑同样 try/catch 兜底",
+  "minSupportedVersionCode": 416,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 416,
-        "versionName": "3.4.69-ZBH",
-        "changelog": "弹幕跨集相对位置追集 v416 mobile-only: 1) Setting.isDanmakuShow 默认 true (FongMi 上游坑) 2) 用户从 dialog 选定时缓存整张 candidates list + index + episode 3) 切集时插件推过来的 URL 用相对位置在缓存里查 (newIdx=cachedIdx+delta) 强制覆盖, 不动 list 4) 完整日志到 /danmaku",
+        "versionCode": 417,
+        "versionName": "3.4.70-ZBH",
+        "changelog": "v417 mobile-only 修 v416 NPE: handleDanmakuPushed 第一行 getCurrentEpisodeIdx → mEpisodeAdapter.getActivated() 在插件早期 push DANMAKU 事件时 NPE, 整个 handler 抛错被 EventBus 吞掉, setDanmaku 没执行, mPlayers.getDanmakus 一直为空 → 点弹幕 dialog 弹出来空白. 修: getCurrentEpisodeIdx 全 try/catch + null 守护; handleDanmakuPushed 整段 try/catch 抛错也退回到 v415 直接用插件 URL 的行为; handleDanmakuShown 缓存逻辑同样 try/catch 兜底",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "76d53612041b17adef1002fc0ae22e0de31e488e8f17c9737ac1889c6c493804",
+        "sha256": "d2b9c59188a69513554bb1fb4dff991efd0d806477b9ef6bb526b5ae22801d75",
         "sizeMB": 30.95
       }
     }
