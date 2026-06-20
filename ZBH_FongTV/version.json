@@ -1,15 +1,15 @@
 {
-  "versionCode": 405,
-  "versionName": "3.4.58-ZBH",
-  "publishedAt": "2026-06-19T15:48:00Z",
-  "changelog": "设置-点播-历史里手动删 VOD 配置时,自动加入本地黑名单并上报 Sentry;调试页副标改为单击打开黑名单管理对话框 (查看/单条移除/清空全部)",
-  "minSupportedVersionCode": 404,
+  "versionCode": 406,
+  "versionName": "3.4.59-ZBH",
+  "publishedAt": "2026-06-20T07:38:49Z",
+  "changelog": "新版 AutoSourceBootstrap 跳过 多仓.txt 拉取 (源.txt 经体检策展已含全量可用单仓);修复 VodConfig.parseDepot 不再绕过本地黑名单",
+  "minSupportedVersionCode": 405,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 403,
-        "versionName": "3.4.56-ZBH",
-        "changelog": "HLS 下载失败时上报诊断信息到 Sentry (Content-Type、最终 URL、响应头 800 字符、headers 等),用于定位'能播不能下载'类问题",
+        "versionCode": 406,
+        "versionName": "3.4.59-ZBH",
+        "changelog": "新版 AutoSourceBootstrap 跳过 多仓.txt 拉取 (源.txt 经体检策展已含全量可用单仓);修复 VodConfig.parseDepot 不再绕过本地黑名单",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "7ce808a5089f8210aa1a0116dcfb5f76780ab0078c96130c46bc59e2c513081a",
+        "sha256": "5a376a84542ccdaced553530ba330a82279b4a713c39f681188efea1b9910ab2",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 405,
-        "versionName": "3.4.58-ZBH",
-        "changelog": "设置-点播-历史里手动删 VOD 配置时,自动加入本地黑名单并上报 Sentry;调试页副标改为单击打开黑名单管理对话框 (查看/单条移除/清空全部)",
+        "versionCode": 406,
+        "versionName": "3.4.59-ZBH",
+        "changelog": "新版 AutoSourceBootstrap 跳过 多仓.txt 拉取 (源.txt 经体检策展已含全量可用单仓);修复 VodConfig.parseDepot 不再绕过本地黑名单",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "fda44ddcc0e79ee7598cabb85fca9c7465f072cdbd451e887ff1e48ee0b06cb3",
+        "sha256": "e51fa49583feb29205dedc7246be70daf401aa898bcbaaa37c9188eff9ddabc0",
         "sizeMB": 30.94
       }
     }
