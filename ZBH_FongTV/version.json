@@ -1,15 +1,15 @@
 {
-  "versionCode": 408,
-  "versionName": "3.4.61-ZBH",
-  "publishedAt": "2026-06-20T11:12:18Z",
-  "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
-  "minSupportedVersionCode": 407,
+  "versionCode": 409,
+  "versionName": "3.4.62-ZBH",
+  "publishedAt": "2026-06-20T11:44:49Z",
+  "changelog": "弹幕跨集追集 v409: 选中那刻整剧 candidates 整张缓存, parse 路径清空候选时 resolver fallback 用缓存, 不再有 http URL + parse 不工作的边界",
+  "minSupportedVersionCode": 408,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 408,
-        "versionName": "3.4.61-ZBH",
-        "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
+        "versionCode": 409,
+        "versionName": "3.4.62-ZBH",
+        "changelog": "弹幕跨集追集 v409: 选中那刻整剧 candidates 整张缓存, parse 路径清空候选时 resolver fallback 用缓存, 不再有 http URL + parse 不工作的边界",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,15 +17,15 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "a44722cb896ba12e1ed8f2c214444f0f68f4eaf3184a664130e5674747ebecc2",
+        "sha256": "2cd4576372964f7144e8206ee860d495699e04b966c5c41a7c07a487b646ec9a",
         "sizeMB": 30.79
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 408,
-        "versionName": "3.4.61-ZBH",
-        "changelog": "弹幕跨集追集修复: Players 加 DanmakuResolver 回调, 在 auto-pick 之前给 VideoActivity 一次匹配机会, 修 v407 parse 路径下时机错+候选清空导致的不切换 bug",
+        "versionCode": 409,
+        "versionName": "3.4.62-ZBH",
+        "changelog": "弹幕跨集追集 v409: 选中那刻整剧 candidates 整张缓存, parse 路径清空候选时 resolver fallback 用缓存, 不再有 http URL + parse 不工作的边界",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "4fef08bcf3683ddb7b331e93b558c4964f72f2edb3a2493d71a07eb9c71870c2",
+        "sha256": "dfc2a67b4f73374b41cbcd8fc50bd61038364b4a9b30140331e8dc4d10cd42a7",
         "sizeMB": 30.94
       }
     }
