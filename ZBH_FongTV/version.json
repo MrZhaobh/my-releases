@@ -1,9 +1,9 @@
 {
-  "versionCode": 420,
-  "versionName": "3.4.73-ZBH",
-  "publishedAt": "2026-06-21T01:20:37Z",
-  "changelog": "v420 mobile-only: 弹幕跨集追集换算法. 不再用相对 index (Action.java:86 任何人都可走 /action?do=refresh&type=danmaku 触发 RefreshEvent.DANMAKU, 包括 search webview 和插件 auto, 无法区分). 改用 channel pattern 记忆: Parser 解析 items>0 时把 URL 的 wexdanmu:type:colorful 模式记下来, 下次插件推 URL pattern 不匹配的延迟 8 秒等匹配的来, 8 秒没等到就用 fallback. 解决 ep8/ep9 qq 渠道空但 iqiyi 有数据时, 自动跳 qq 用 iqiyi 不需要用户手选",
-  "minSupportedVersionCode": 419,
+  "versionCode": 421,
+  "versionName": "3.4.74-ZBH",
+  "publishedAt": "2026-06-21T01:52:01Z",
+  "changelog": "v421 mobile-only 诊断版: 加 DanmakuChannelProbe, channel pattern mismatch 时同步异步扫 :8096 (用户日志已知) + 7944 (fmys) + 8090-8099 (常见区间) 上 10 个常见 endpoint (/danmu?do=list/sources/search/getSource 等), 响应 code/bytes/contentType/head 全打 /danmaku ring. 不替换 fallback, 纯数据收集. 下版本据此实现 spider 强查 iqiyi",
+  "minSupportedVersionCode": 420,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 420,
-        "versionName": "3.4.73-ZBH",
-        "changelog": "v420 mobile-only: 弹幕跨集追集换算法. 不再用相对 index (Action.java:86 任何人都可走 /action?do=refresh&type=danmaku 触发 RefreshEvent.DANMAKU, 包括 search webview 和插件 auto, 无法区分). 改用 channel pattern 记忆: Parser 解析 items>0 时把 URL 的 wexdanmu:type:colorful 模式记下来, 下次插件推 URL pattern 不匹配的延迟 8 秒等匹配的来, 8 秒没等到就用 fallback. 解决 ep8/ep9 qq 渠道空但 iqiyi 有数据时, 自动跳 qq 用 iqiyi 不需要用户手选",
+        "versionCode": 421,
+        "versionName": "3.4.74-ZBH",
+        "changelog": "v421 mobile-only 诊断版: 加 DanmakuChannelProbe, channel pattern mismatch 时同步异步扫 :8096 (用户日志已知) + 7944 (fmys) + 8090-8099 (常见区间) 上 10 个常见 endpoint (/danmu?do=list/sources/search/getSource 等), 响应 code/bytes/contentType/head 全打 /danmaku ring. 不替换 fallback, 纯数据收集. 下版本据此实现 spider 强查 iqiyi",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "f3481d5c4b83fff95645ce4693e1e77950505e7c7a9d1b5ba9480d9d88de0fd5",
+        "sha256": "d53bd8d9359698ccbd46c0a8fbf49aff3cf85befd804459d96c5c95faa0929ca",
         "sizeMB": 30.95
       }
     }
