@@ -1,9 +1,9 @@
 {
-  "versionCode": 424,
-  "versionName": "3.4.77-ZBH",
-  "publishedAt": "2026-06-21T03:32:12Z",
-  "changelog": "v424 mobile-only: 加 DanmakuRequestSniffer OkHttp 拦截器, App.onCreate 装到 catvod 共享 client. URL 含 danmu/iqiyi/wexdanmu/youku/qq.com/azure.leuse 等关键字时 全量记到 /danmaku: method url code contentType reqBody respBytes respHead 前 600B. spider 内部所有外部 / 跨端口 HTTP 请求都被抓, 用户点搜索时 spider 拉 channel 列表的 URL 立即显形",
-  "minSupportedVersionCode": 423,
+  "versionCode": 425,
+  "versionName": "3.4.78-ZBH",
+  "publishedAt": "2026-06-21T04:42:49Z",
+  "changelog": "",
+  "minSupportedVersionCode": 424,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 424,
-        "versionName": "3.4.77-ZBH",
-        "changelog": "v424 mobile-only: 加 DanmakuRequestSniffer OkHttp 拦截器, App.onCreate 装到 catvod 共享 client. URL 含 danmu/iqiyi/wexdanmu/youku/qq.com/azure.leuse 等关键字时 全量记到 /danmaku: method url code contentType reqBody respBytes respHead 前 600B. spider 内部所有外部 / 跨端口 HTTP 请求都被抓, 用户点搜索时 spider 拉 channel 列表的 URL 立即显形",
+        "versionCode": 425,
+        "versionName": "3.4.78-ZBH",
+        "changelog": "",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "25f2ae27b19fbccf7848135dc93f1420be0e77ae5e355a8a16e41131adcc2453",
+        "sha256": "39b6bb85694844dcf758187ed450682ffa1688350a93b7b62af19cfa7c06b9fb",
         "sizeMB": 30.95
       }
     }
