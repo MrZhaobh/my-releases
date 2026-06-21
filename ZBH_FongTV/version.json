@@ -1,9 +1,9 @@
 {
-  "versionCode": 421,
-  "versionName": "3.4.74-ZBH",
-  "publishedAt": "2026-06-21T01:52:01Z",
-  "changelog": "v421 mobile-only 诊断版: 加 DanmakuChannelProbe, channel pattern mismatch 时同步异步扫 :8096 (用户日志已知) + 7944 (fmys) + 8090-8099 (常见区间) 上 10 个常见 endpoint (/danmu?do=list/sources/search/getSource 等), 响应 code/bytes/contentType/head 全打 /danmaku ring. 不替换 fallback, 纯数据收集. 下版本据此实现 spider 强查 iqiyi",
-  "minSupportedVersionCode": 420,
+  "versionCode": 422,
+  "versionName": "3.4.75-ZBH",
+  "publishedAt": "2026-06-21T02:07:39Z",
+  "changelog": "v422 mobile-only probe v2: v421 探到 :8096 是 SPA + {error:Invalid action}, 真正操作选择是 action=. v422 精确探: phase1 抓 SPA HTML/JS (root, /static/js/main.js, /app.js, /bundle.js 等) 看 JS fetch API 字符串; phase2 试 16 种 action= 值 (list/search/getSource/channels 等) 组合 do=goDanmu; phase3 不带 do= 只 action= 验. capture 长度由 200 提到 1500/400 字节",
+  "minSupportedVersionCode": 421,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 421,
-        "versionName": "3.4.74-ZBH",
-        "changelog": "v421 mobile-only 诊断版: 加 DanmakuChannelProbe, channel pattern mismatch 时同步异步扫 :8096 (用户日志已知) + 7944 (fmys) + 8090-8099 (常见区间) 上 10 个常见 endpoint (/danmu?do=list/sources/search/getSource 等), 响应 code/bytes/contentType/head 全打 /danmaku ring. 不替换 fallback, 纯数据收集. 下版本据此实现 spider 强查 iqiyi",
+        "versionCode": 422,
+        "versionName": "3.4.75-ZBH",
+        "changelog": "v422 mobile-only probe v2: v421 探到 :8096 是 SPA + {error:Invalid action}, 真正操作选择是 action=. v422 精确探: phase1 抓 SPA HTML/JS (root, /static/js/main.js, /app.js, /bundle.js 等) 看 JS fetch API 字符串; phase2 试 16 种 action= 值 (list/search/getSource/channels 等) 组合 do=goDanmu; phase3 不带 do= 只 action= 验. capture 长度由 200 提到 1500/400 字节",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "d53bd8d9359698ccbd46c0a8fbf49aff3cf85befd804459d96c5c95faa0929ca",
+        "sha256": "c8665948b2150074b260957f48077169a022c5a0a4595961abc0864a8c0369bc",
         "sizeMB": 30.95
       }
     }
