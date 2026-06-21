@@ -1,9 +1,9 @@
 {
-  "versionCode": 425,
-  "versionName": "3.4.78-ZBH",
-  "publishedAt": "2026-06-21T04:42:49Z",
+  "versionCode": 426,
+  "versionName": "3.4.79-ZBH",
+  "publishedAt": "2026-06-21T07:48:48Z",
   "changelog": "",
-  "minSupportedVersionCode": 424,
+  "minSupportedVersionCode": 425,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,8 +23,8 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 425,
-        "versionName": "3.4.78-ZBH",
+        "versionCode": 426,
+        "versionName": "3.4.79-ZBH",
         "changelog": "",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,8 +33,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "39b6bb85694844dcf758187ed450682ffa1688350a93b7b62af19cfa7c06b9fb",
-        "sizeMB": 30.95
+        "sha256": "7d3e0b5bc419b9ae9d61bfd00f4ed4004fb5bf1ec3a60d5d717b454ed62c2da7",
+        "sizeMB": 30.96
       }
     }
   },
