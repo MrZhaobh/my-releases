@@ -1,9 +1,9 @@
 {
-  "versionCode": 422,
-  "versionName": "3.4.75-ZBH",
-  "publishedAt": "2026-06-21T02:07:39Z",
-  "changelog": "v422 mobile-only probe v2: v421 探到 :8096 是 SPA + {error:Invalid action}, 真正操作选择是 action=. v422 精确探: phase1 抓 SPA HTML/JS (root, /static/js/main.js, /app.js, /bundle.js 等) 看 JS fetch API 字符串; phase2 试 16 种 action= 值 (list/search/getSource/channels 等) 组合 do=goDanmu; phase3 不带 do= 只 action= 验. capture 长度由 200 提到 1500/400 字节",
-  "minSupportedVersionCode": 421,
+  "versionCode": 423,
+  "versionName": "3.4.76-ZBH",
+  "publishedAt": "2026-06-21T02:30:35Z",
+  "changelog": "v423 mobile-only: 答用户'能不能自动点击搜索弹幕' — 完全可行 jar 已在进程内, 但要先知道点击触发的是哪个 /proxy?do=X. 加 Proxy.java 和 Action.java 入口埋点 (proxy.in / action.in 含 do= + 所有 params 摘要), 用户点'搜索弹幕'时 web/UI 调什么 do= 立刻在 log 显形. 下版本据此直接 reflective 调那个 endpoint 自动搜 iqiyi",
+  "minSupportedVersionCode": 422,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 422,
-        "versionName": "3.4.75-ZBH",
-        "changelog": "v422 mobile-only probe v2: v421 探到 :8096 是 SPA + {error:Invalid action}, 真正操作选择是 action=. v422 精确探: phase1 抓 SPA HTML/JS (root, /static/js/main.js, /app.js, /bundle.js 等) 看 JS fetch API 字符串; phase2 试 16 种 action= 值 (list/search/getSource/channels 等) 组合 do=goDanmu; phase3 不带 do= 只 action= 验. capture 长度由 200 提到 1500/400 字节",
+        "versionCode": 423,
+        "versionName": "3.4.76-ZBH",
+        "changelog": "v423 mobile-only: 答用户'能不能自动点击搜索弹幕' — 完全可行 jar 已在进程内, 但要先知道点击触发的是哪个 /proxy?do=X. 加 Proxy.java 和 Action.java 入口埋点 (proxy.in / action.in 含 do= + 所有 params 摘要), 用户点'搜索弹幕'时 web/UI 调什么 do= 立刻在 log 显形. 下版本据此直接 reflective 调那个 endpoint 自动搜 iqiyi",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "c8665948b2150074b260957f48077169a022c5a0a4595961abc0864a8c0369bc",
+        "sha256": "835d9fa1c2edceb382052c21a9f5a54412d7680286c29c8b470c2a92e75ce0cb",
         "sizeMB": 30.95
       }
     }
