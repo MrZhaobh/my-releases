@@ -1,15 +1,15 @@
 {
-  "versionCode": 426,
-  "versionName": "3.4.79-ZBH",
-  "publishedAt": "2026-06-21T07:48:48Z",
+  "versionCode": 427,
+  "versionName": "3.4.80-ZBH",
+  "publishedAt": "2026-06-21T08:24:03Z",
   "changelog": "",
-  "minSupportedVersionCode": 425,
+  "minSupportedVersionCode": 426,
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 414,
-        "versionName": "3.4.67-ZBH",
-        "changelog": "弹幕修 v414: mobile 选弹幕自动拨 Setting.isDanmakuShow=true + 发 RefreshEvent.DANMAKU_SHOW 让 VideoActivity 刷新 mBinding.danmaku 的 Android visibility + toggle icon. 修 v413 诊断定位的 'isDanmakuShow default false → view 永远 INVISIBLE 5万条加载也看不到' UX 坑",
+        "versionCode": 427,
+        "versionName": "3.4.80-ZBH",
+        "changelog": "",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
@@ -17,14 +17,14 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "1a0cd324327d3fe2a4ccc70e49ba5017ecfa7e72d03c28e479f5d8b569efccdb",
-        "sizeMB": 30.79
+        "sha256": "3355eabda32dd071933e832b2ea76dc50bd43cd6a80531fb8020c430036f55c5",
+        "sizeMB": 30.81
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 426,
-        "versionName": "3.4.79-ZBH",
+        "versionCode": 427,
+        "versionName": "3.4.80-ZBH",
         "changelog": "",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "7d3e0b5bc419b9ae9d61bfd00f4ed4004fb5bf1ec3a60d5d717b454ed62c2da7",
+        "sha256": "587a535733be4977f9a2e552fab5629db94f2494f458ecb21988dcc040b7b33e",
         "sizeMB": 30.96
       }
     }
