@@ -1,9 +1,9 @@
 {
-  "versionCode": 430,
-  "versionName": "3.4.83-ZBH",
-  "publishedAt": "2026-06-22T15:56:46Z",
-  "changelog": "GithubProxyInterceptor 加 race-cancel 自检 — ZbhUpdate.race winner→cancel GitHub loser 时不再跑完 5 个 fallback 也不再误报 Sentry github.proxy.exhausted 告警",
-  "minSupportedVersionCode": 429,
+  "versionCode": 431,
+  "versionName": "3.4.84-ZBH",
+  "publishedAt": "2026-06-22T16:08:37Z",
+  "changelog": "合并 LiveConfig/VodConfig 启动期同源双拉 — 同 URL 让 VodConfig 顺手 initLive 省 ~1.6s, 不同 URL 保持独立拉",
+  "minSupportedVersionCode": 430,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 430,
-        "versionName": "3.4.83-ZBH",
-        "changelog": "GithubProxyInterceptor 加 race-cancel 自检 — ZbhUpdate.race winner→cancel GitHub loser 时不再跑完 5 个 fallback 也不再误报 Sentry github.proxy.exhausted 告警",
+        "versionCode": 431,
+        "versionName": "3.4.84-ZBH",
+        "changelog": "合并 LiveConfig/VodConfig 启动期同源双拉 — 同 URL 让 VodConfig 顺手 initLive 省 ~1.6s, 不同 URL 保持独立拉",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "9cdde4150d2fd3deca6ed01db5ecd7022b2edd0842f4c72e84bf39207a1f89f5",
+        "sha256": "2c7f298b698d6f7276436b4ea74c8fcf9eba771603c44c7e1c27c4fcbc710737",
         "sizeMB": 30.97
       }
     }
