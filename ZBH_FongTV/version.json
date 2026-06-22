@@ -1,26 +1,10 @@
 {
   "versionCode": 431,
   "versionName": "3.4.84-ZBH",
-  "publishedAt": "2026-06-22T16:08:37Z",
-  "changelog": "合并 LiveConfig/VodConfig 启动期同源双拉 — 同 URL 让 VodConfig 顺手 initLive 省 ~1.6s, 不同 URL 保持独立拉",
-  "minSupportedVersionCode": 430,
+  "publishedAt": "2026-06-22T16:20:53Z",
+  "changelog": "leanback 补发 v3.4.84-ZBH-431 — 同步 mobile 三个修复 (CallbackTimeout 不吞 success / GithubProxyInterceptor race-cancel 自检 / LiveConfig+VodConfig 同源双拉合并)",
+  "minSupportedVersionCode": 431,
   "variants": {
-    "leanback": {
-      "v7a": {
-        "versionCode": 427,
-        "versionName": "3.4.80-ZBH",
-        "changelog": "",
-        "urls": [
-          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
-        ],
-        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "3355eabda32dd071933e832b2ea76dc50bd43cd6a80531fb8020c430036f55c5",
-        "sizeMB": 30.81
-      }
-    },
     "mobile": {
       "v8a": {
         "versionCode": 431,
@@ -35,6 +19,22 @@
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "sha256": "2c7f298b698d6f7276436b4ea74c8fcf9eba771603c44c7e1c27c4fcbc710737",
         "sizeMB": 30.97
+      }
+    },
+    "leanback": {
+      "v7a": {
+        "versionCode": 431,
+        "versionName": "3.4.84-ZBH",
+        "changelog": "leanback 补发 v3.4.84-ZBH-431 — 同步 mobile 三个修复 (CallbackTimeout 不吞 success / GithubProxyInterceptor race-cancel 自检 / LiveConfig+VodConfig 同源双拉合并)",
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "1b5e0fadec4b9b06a4f628275b687ea09c06afbd61edd4aba760c773310094bc",
+        "sizeMB": 30.81
       }
     }
   },
