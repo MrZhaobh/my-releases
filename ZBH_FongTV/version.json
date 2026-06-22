@@ -1,9 +1,9 @@
 {
-  "versionCode": 429,
-  "versionName": "3.4.82-ZBH",
-  "publishedAt": "2026-06-22T15:24:55Z",
-  "changelog": "修启动转圈死循环 — CallbackTimeout 把 VodConfig.parseConfig 二次 success() 吞了导致 RefreshEvent.video 永远不发 (BootTraceRing v428 取证)",
-  "minSupportedVersionCode": 428,
+  "versionCode": 430,
+  "versionName": "3.4.83-ZBH",
+  "publishedAt": "2026-06-22T15:56:46Z",
+  "changelog": "GithubProxyInterceptor 加 race-cancel 自检 — ZbhUpdate.race winner→cancel GitHub loser 时不再跑完 5 个 fallback 也不再误报 Sentry github.proxy.exhausted 告警",
+  "minSupportedVersionCode": 429,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 429,
-        "versionName": "3.4.82-ZBH",
-        "changelog": "修启动转圈死循环 — CallbackTimeout 把 VodConfig.parseConfig 二次 success() 吞了导致 RefreshEvent.video 永远不发 (BootTraceRing v428 取证)",
+        "versionCode": 430,
+        "versionName": "3.4.83-ZBH",
+        "changelog": "GithubProxyInterceptor 加 race-cancel 自检 — ZbhUpdate.race winner→cancel GitHub loser 时不再跑完 5 个 fallback 也不再误报 Sentry github.proxy.exhausted 告警",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,8 +33,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "d2c51dfde8776541c0f6c19a8296ec1124911a65324be8a2adc1999005e8dd47",
-        "sizeMB": 30.96
+        "sha256": "9cdde4150d2fd3deca6ed01db5ecd7022b2edd0842f4c72e84bf39207a1f89f5",
+        "sizeMB": 30.97
       }
     }
   },
