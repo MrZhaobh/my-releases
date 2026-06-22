@@ -1,26 +1,10 @@
 {
-  "versionCode": 431,
-  "versionName": "3.4.84-ZBH",
-  "publishedAt": "2026-06-22T16:20:53Z",
-  "changelog": "leanback 补发 v3.4.84-ZBH-431 — 同步 mobile 三个修复 (CallbackTimeout 不吞 success / GithubProxyInterceptor race-cancel 自检 / LiveConfig+VodConfig 同源双拉合并)",
+  "versionCode": 432,
+  "versionName": "3.4.85-ZBH",
+  "publishedAt": "2026-06-22T23:54:42Z",
+  "changelog": "下载入队 reject 全链路埋点 — DebugServer 新增 /download/reject 路由 (含完整 URL 排查 '为啥这集不能下载'), DownloadDispatcher 5 路径 + DownloadUrlResolver 5 路径全覆盖",
   "minSupportedVersionCode": 431,
   "variants": {
-    "mobile": {
-      "v8a": {
-        "versionCode": 431,
-        "versionName": "3.4.84-ZBH",
-        "changelog": "合并 LiveConfig/VodConfig 启动期同源双拉 — 同 URL 让 VodConfig 顺手 initLive 省 ~1.6s, 不同 URL 保持独立拉",
-        "urls": [
-          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
-        ],
-        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "2c7f298b698d6f7276436b4ea74c8fcf9eba771603c44c7e1c27c4fcbc710737",
-        "sizeMB": 30.97
-      }
-    },
     "leanback": {
       "v7a": {
         "versionCode": 431,
@@ -35,6 +19,22 @@
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "sha256": "1b5e0fadec4b9b06a4f628275b687ea09c06afbd61edd4aba760c773310094bc",
         "sizeMB": 30.81
+      }
+    },
+    "mobile": {
+      "v8a": {
+        "versionCode": 432,
+        "versionName": "3.4.85-ZBH",
+        "changelog": "下载入队 reject 全链路埋点 — DebugServer 新增 /download/reject 路由 (含完整 URL 排查 '为啥这集不能下载'), DownloadDispatcher 5 路径 + DownloadUrlResolver 5 路径全覆盖",
+        "urls": [
+          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "sha256": "a632eec19b8a5d7d5559f301b6b2ba8e3fd35d915d8c8b3e04875a045c70b401",
+        "sizeMB": 30.97
       }
     }
   },
