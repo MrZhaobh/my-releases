@@ -1,9 +1,9 @@
 {
-  "versionCode": 427,
-  "versionName": "3.4.80-ZBH",
-  "publishedAt": "2026-06-21T08:24:03Z",
-  "changelog": "",
-  "minSupportedVersionCode": 426,
+  "versionCode": 428,
+  "versionName": "3.4.81-ZBH",
+  "publishedAt": "2026-06-22T14:49:10Z",
+  "changelog": "DebugServer /boot 路由 + BootTraceRing 启动期 VodConfig.load 全链路时间戳埋点 (排查每次启动转圈 ~15s 根因)",
+  "minSupportedVersionCode": 427,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 427,
-        "versionName": "3.4.80-ZBH",
-        "changelog": "",
+        "versionCode": 428,
+        "versionName": "3.4.81-ZBH",
+        "changelog": "DebugServer /boot 路由 + BootTraceRing 启动期 VodConfig.load 全链路时间戳埋点 (排查每次启动转圈 ~15s 根因)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,8 +33,8 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "587a535733be4977f9a2e552fab5629db94f2494f458ecb21988dcc040b7b33e",
-        "sizeMB": 30.96
+        "sha256": "ce8ca78d50e3a51358025484b23a608c812031d3bf7bd91bfaabdf9e99d1e3f2",
+        "sizeMB": 30.97
       }
     }
   },
