@@ -1,9 +1,9 @@
 {
-  "versionCode": 433,
-  "versionName": "3.4.86-ZBH",
-  "publishedAt": "2026-06-23T00:33:35Z",
-  "changelog": "下载 reject/fail 全链路埋点 — UrlSniffer isHardRejectScheme 修 spider id 误拒, parse=1 源直链 HEAD probe 试下 (失败兜底不崩), 所有 reject/fail 同步上 Sentry + 本地 /download/reject 和 /download/fail 路由",
-  "minSupportedVersionCode": 432,
+  "versionCode": 434,
+  "versionName": "3.4.87-ZBH",
+  "publishedAt": "2026-06-23T01:13:24Z",
+  "changelog": "ANR 修复一波 — MainThreadWatchdog 屏幕状态判别 (消 Sentry F 类 15+ 误报) + DownloadService scheduleExec 后台化 (消 W/X/Z 三条 + 11 race) — 但 Sentry P1 7 条 resolve 需后台手动 (token 只读)",
+  "minSupportedVersionCode": 433,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 433,
-        "versionName": "3.4.86-ZBH",
-        "changelog": "下载 reject/fail 全链路埋点 — UrlSniffer isHardRejectScheme 修 spider id 误拒, parse=1 源直链 HEAD probe 试下 (失败兜底不崩), 所有 reject/fail 同步上 Sentry + 本地 /download/reject 和 /download/fail 路由",
+        "versionCode": 434,
+        "versionName": "3.4.87-ZBH",
+        "changelog": "ANR 修复一波 — MainThreadWatchdog 屏幕状态判别 (消 Sentry F 类 15+ 误报) + DownloadService scheduleExec 后台化 (消 W/X/Z 三条 + 11 race) — 但 Sentry P1 7 条 resolve 需后台手动 (token 只读)",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "6084201197996785756152e5faa96ffca9b50370a256be748012c58641d2a0fc",
+        "sha256": "2a2779131a0cb1e4d995a7690941487788629f024de59854e1519a6f7595826a",
         "sizeMB": 30.97
       }
     }
