@@ -1,9 +1,9 @@
 {
-  "versionCode": 432,
-  "versionName": "3.4.85-ZBH",
-  "publishedAt": "2026-06-22T23:54:42Z",
-  "changelog": "下载入队 reject 全链路埋点 — DebugServer 新增 /download/reject 路由 (含完整 URL 排查 '为啥这集不能下载'), DownloadDispatcher 5 路径 + DownloadUrlResolver 5 路径全覆盖",
-  "minSupportedVersionCode": 431,
+  "versionCode": 433,
+  "versionName": "3.4.86-ZBH",
+  "publishedAt": "2026-06-23T00:33:35Z",
+  "changelog": "下载 reject/fail 全链路埋点 — UrlSniffer isHardRejectScheme 修 spider id 误拒, parse=1 源直链 HEAD probe 试下 (失败兜底不崩), 所有 reject/fail 同步上 Sentry + 本地 /download/reject 和 /download/fail 路由",
+  "minSupportedVersionCode": 432,
   "variants": {
     "leanback": {
       "v7a": {
@@ -23,9 +23,9 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 432,
-        "versionName": "3.4.85-ZBH",
-        "changelog": "下载入队 reject 全链路埋点 — DebugServer 新增 /download/reject 路由 (含完整 URL 排查 '为啥这集不能下载'), DownloadDispatcher 5 路径 + DownloadUrlResolver 5 路径全覆盖",
+        "versionCode": 433,
+        "versionName": "3.4.86-ZBH",
+        "changelog": "下载 reject/fail 全链路埋点 — UrlSniffer isHardRejectScheme 修 spider id 误拒, parse=1 源直链 HEAD probe 试下 (失败兜底不崩), 所有 reject/fail 同步上 Sentry + 本地 /download/reject 和 /download/fail 路由",
         "urls": [
           "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
           "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
@@ -33,7 +33,7 @@
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "a632eec19b8a5d7d5559f301b6b2ba8e3fd35d915d8c8b3e04875a045c70b401",
+        "sha256": "6084201197996785756152e5faa96ffca9b50370a256be748012c58641d2a0fc",
         "sizeMB": 30.97
       }
     }
