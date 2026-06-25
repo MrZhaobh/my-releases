@@ -1,9 +1,9 @@
 {
-  "versionCode": 438,
-  "versionName": "3.4.91-ZBH",
-  "publishedAt": "2026-06-25T15:34:50Z",
-  "changelog": "A2 离线下载稳定性 + 自动更新链路加固 — 1.WmTrace 诊断不再主线程写文件 (修 Sentry MYTVBOX-2C 14 分钟主线程卡顿);2.pause race 修 (Worker onProgress 用 partial SQL + WHERE status=1 守卫, 用户暂停不再被覆盖回 RUNNING);3.HLS 估算总大小入库 (Room schema v34→v35, 进程重启后 UI 不再误显示估算值为精确);4.AndroidManifest 净化 (leanback flavor 自己声明 SystemForegroundService dataSync);5.publish-release.ps1 防 PowerShell 单元素数组 unwrap (修 437 hotfix 那种 Gson 炸的事故)",
-  "minSupportedVersionCode": 437,
+  "versionCode": 439,
+  "versionName": "3.4.92-ZBH",
+  "publishedAt": "2026-06-25T15:59:56Z",
+  "changelog": "修复系统下载和浏览器下载未复用更新加速线路的问题",
+  "minSupportedVersionCode": 438,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 438,
-        "versionName": "3.4.91-ZBH",
-        "changelog": "A2 离线下载稳定性 + 自动更新链路加固 — 1.WmTrace 诊断不再主线程写文件 (修 Sentry MYTVBOX-2C 14 分钟主线程卡顿);2.pause race 修 (Worker onProgress 用 partial SQL + WHERE status=1 守卫, 用户暂停不再被覆盖回 RUNNING);3.HLS 估算总大小入库 (Room schema v34→v35, 进程重启后 UI 不再误显示估算值为精确);4.AndroidManifest 净化 (leanback flavor 自己声明 SystemForegroundService dataSync);5.publish-release.ps1 防 PowerShell 单元素数组 unwrap (修 437 hotfix 那种 Gson 炸的事故)",
+        "versionCode": 439,
+        "versionName": "3.4.92-ZBH",
+        "changelog": "修复系统下载和浏览器下载未复用更新加速线路的问题",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "90f2f572b481b303d4b9208ccada941747e8b4557f7c4f856917a18bf82c6b7d",
+        "sha256": "d5745552688fceb14ecfbae15a04e569619749b63ce6f1ed80dbb4fae9002b33",
         "sizeMB": 30.94
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 438,
-        "versionName": "3.4.91-ZBH",
-        "changelog": "A2 离线下载稳定性 + 自动更新链路加固 — 1.WmTrace 诊断不再主线程写文件 (修 Sentry MYTVBOX-2C 14 分钟主线程卡顿);2.pause race 修 (Worker onProgress 用 partial SQL + WHERE status=1 守卫, 用户暂停不再被覆盖回 RUNNING);3.HLS 估算总大小入库 (Room schema v34→v35, 进程重启后 UI 不再误显示估算值为精确);4.AndroidManifest 净化 (leanback flavor 自己声明 SystemForegroundService dataSync);5.publish-release.ps1 防 PowerShell 单元素数组 unwrap (修 437 hotfix 那种 Gson 炸的事故)",
+        "versionCode": 439,
+        "versionName": "3.4.92-ZBH",
+        "changelog": "修复系统下载和浏览器下载未复用更新加速线路的问题",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "2f4c5bf0e39cde1135d3a87dfa62b76ba724105a5dca4378e174ac875563dc3e",
+        "sha256": "013e75b1975002228bdc2949d735e51b4c24203da0c011597304593e0d4abb2e",
         "sizeMB": 31.11
       }
     }
