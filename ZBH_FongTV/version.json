@@ -1,40 +1,38 @@
 {
-  "versionCode": 436,
-  "versionName": "3.4.89-ZBH",
-  "publishedAt": "2026-06-25T13:26:28Z",
-  "changelog": "1.修复切后台(非小窗)仍有声音,现在完全切后台自动暂停;2.已缓存剧集支持离线播放(无网络/无WiFi也能看);3.离线下载稳定性改进(后台被系统杀后自动续传)",
-  "minSupportedVersionCode": 435,
+  "versionCode": 437,
+  "versionName": "3.4.90-ZBH",
+  "publishedAt": "2026-06-25T14:22:34Z",
+  "changelog": "自动更新下载提速 — 1.APK 改并发 race(gh-proxy/ghfast/mirror.ghproxy/idayer 4 路 + 直连);2.单代理 connect 8s→3s/read 15s→12s;3.代理列表移到 version.json,改代理热更",
+  "minSupportedVersionCode": 436,
   "tvShowDialog": false,
+  "proxies": [
+    "https://gh-proxy.com/",
+    "https://ghfast.top/",
+    "https://mirror.ghproxy.com/",
+    "https://gh.idayer.com/"
+  ],
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 435,
-        "versionName": "3.4.88-ZBH",
-        "changelog": "TV 后台静默更新（默认下次启动询问安装；旧 APK 缓存自动清理；leanback 永不强制）+ 弹幕/播放器零碎修",
-        "urls": [
-          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
-        ],
+        "versionCode": 437,
+        "versionName": "3.4.90-ZBH",
+        "changelog": "自动更新下载提速 — 1.APK 改并发 race(gh-proxy/ghfast/mirror.ghproxy/idayer 4 路 + 直连);2.单代理 connect 8s→3s/read 15s→12s;3.代理列表移到 version.json,改代理热更",
+        "urls": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "dea47e2ab50fb36ae42753fd00000c32cc321c57d8f62c7e35474eebc0e76740",
-        "sizeMB": 30.81
+        "sha256": "ab544532d6b0b82d1e6ee28588265e406c5305b9a48b0210a754589ad234eebd",
+        "sizeMB": 30.94
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 436,
-        "versionName": "3.4.89-ZBH",
-        "changelog": "1.修复切后台(非小窗)仍有声音,现在完全切后台自动暂停;2.已缓存剧集支持离线播放(无网络/无WiFi也能看);3.离线下载稳定性改进(后台被系统杀后自动续传)",
-        "urls": [
-          "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
-        ],
+        "versionCode": 437,
+        "versionName": "3.4.90-ZBH",
+        "changelog": "自动更新下载提速 — 1.APK 改并发 race(gh-proxy/ghfast/mirror.ghproxy/idayer 4 路 + 直连);2.单代理 connect 8s→3s/read 15s→12s;3.代理列表移到 version.json,改代理热更",
+        "urls": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "cc4f0840f0984026c72c62adcc41ca81402ff3e31fb4168a994e41be6fb258e5",
+        "sha256": "a4d9a140a0c5b039947dd12e19c40a0e2e06c02d9602d97802c3254b3fcdaa65",
         "sizeMB": 31.11
       }
     }
