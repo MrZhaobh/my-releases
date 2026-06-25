@@ -17,7 +17,9 @@
         "versionCode": 437,
         "versionName": "3.4.90-ZBH",
         "changelog": "自动更新下载提速 — 1.APK 改并发 race(gh-proxy/ghfast/mirror.ghproxy/idayer 4 路 + 直连);2.单代理 connect 8s→3s/read 15s→12s;3.代理列表移到 version.json,改代理热更",
-        "urls": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "urls": [
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "sha256": "ab544532d6b0b82d1e6ee28588265e406c5305b9a48b0210a754589ad234eebd",
@@ -29,7 +31,9 @@
         "versionCode": 437,
         "versionName": "3.4.90-ZBH",
         "changelog": "自动更新下载提速 — 1.APK 改并发 race(gh-proxy/ghfast/mirror.ghproxy/idayer 4 路 + 直连);2.单代理 connect 8s→3s/read 15s→12s;3.代理列表移到 version.json,改代理热更",
-        "urls": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "urls": [
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
+        ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "sha256": "a4d9a140a0c5b039947dd12e19c40a0e2e06c02d9602d97802c3254b3fcdaa65",
