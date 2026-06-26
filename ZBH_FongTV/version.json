@@ -1,9 +1,9 @@
 {
-  "versionCode": 445,
-  "versionName": "3.4.98-ZBH",
-  "publishedAt": "2026-06-26T03:53:49Z",
+  "versionCode": 446,
+  "versionName": "3.4.99-ZBH",
+  "publishedAt": "2026-06-26T05:16:30Z",
   "changelog": "",
-  "minSupportedVersionCode": 444,
+  "minSupportedVersionCode": 445,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 445,
-        "versionName": "3.4.98-ZBH",
+        "versionCode": 446,
+        "versionName": "3.4.99-ZBH",
         "changelog": "",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "a20fc8ce462560be63e9895f0863533e66921b4669bf6715a226e34d00ae8824",
+        "sha256": "16cbcad480ca3ccc54efe3b87d451065688aeed99163132369545250bd202ac7",
         "sizeMB": 30.96
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 445,
-        "versionName": "3.4.98-ZBH",
+        "versionCode": 446,
+        "versionName": "3.4.99-ZBH",
         "changelog": "",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "1fd9fe34a0b0b059df4aaf06924ed1fe438e20f113fcf27e2bc9374d07e5ff59",
+        "sha256": "a906af9456930ada62e44476887d53a97e23963ef1c2c8c6ed7eade0980368b7",
         "sizeMB": 31.12
       }
     }
