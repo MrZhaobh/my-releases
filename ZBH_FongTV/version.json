@@ -1,9 +1,9 @@
 {
-  "versionCode": 440,
-  "versionName": "3.4.93-ZBH",
-  "publishedAt": "2026-06-25T16:28:08Z",
-  "changelog": "优化自动更新、离线下载和弹幕体验：系统/浏览器下载改用更兼容的线路探测；下载进度支持重启后恢复显示；下载通知失败给出明确提示；弹幕自动切源支持已学习模板回放；同步源加载与发布文档。",
-  "minSupportedVersionCode": 439,
+  "versionCode": 441,
+  "versionName": "3.4.94-ZBH",
+  "publishedAt": "2026-06-26T00:36:14Z",
+  "changelog": "修复离线缓存播放：下载页点击已缓存剧集优先显示本地缓存线路，源挂或网络异常时可直接播放并显示已缓存集。",
+  "minSupportedVersionCode": 440,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -28,16 +28,16 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 440,
-        "versionName": "3.4.93-ZBH",
-        "changelog": "优化自动更新、离线下载和弹幕体验：系统/浏览器下载改用更兼容的线路探测；下载进度支持重启后恢复显示；下载通知失败给出明确提示；弹幕自动切源支持已学习模板回放；同步源加载与发布文档。",
+        "versionCode": 441,
+        "versionName": "3.4.94-ZBH",
+        "changelog": "修复离线缓存播放：下载页点击已缓存剧集优先显示本地缓存线路，源挂或网络异常时可直接播放并显示已缓存集。",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "056a863faab6b974dd9346cb5065000055455d433947b4604ef6100a8c9f0908",
-        "sizeMB": 31.11
+        "sha256": "72b3647c56bdb25c1a06e74055a10a7cb49a8571885403b88c542c90cd3d3624",
+        "sizeMB": 31.12
       }
     }
   },
