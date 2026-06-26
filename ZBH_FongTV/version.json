@@ -1,9 +1,9 @@
 {
-  "versionCode": 447,
-  "versionName": "3.4.100-ZBH",
-  "publishedAt": "2026-06-26T16:02:23Z",
-  "changelog": "移动端弹幕默认关闭；设置页打开弹幕加载后播放页自动显示；手动选中弹幕后自动开启显示",
-  "minSupportedVersionCode": 446,
+  "versionCode": 448,
+  "versionName": "3.4.101-ZBH",
+  "publishedAt": "2026-06-26T16:34:42Z",
+  "changelog": "移动端历史页同步菜单加入 GitHub 拉取/同步，保留局域网设备同步",
+  "minSupportedVersionCode": 447,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -28,15 +28,15 @@
     },
     "mobile": {
       "v8a": {
-        "versionCode": 447,
-        "versionName": "3.4.100-ZBH",
-        "changelog": "移动端弹幕默认关闭；设置页打开弹幕加载后播放页自动显示；手动选中弹幕后自动开启显示",
+        "versionCode": 448,
+        "versionName": "3.4.101-ZBH",
+        "changelog": "移动端历史页同步菜单加入 GitHub 拉取/同步，保留局域网设备同步",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "26f355c897e23dfa838c2e915f480de5926c2d46c12d423b15d040c25b62021f",
+        "sha256": "bc1302e447e69879321953af46b94515726b2209eb0107953cf6dc693bb1a9b3",
         "sizeMB": 31.12
       }
     }
