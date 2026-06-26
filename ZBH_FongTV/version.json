@@ -1,9 +1,9 @@
 {
-  "versionCode": 448,
-  "versionName": "3.4.101-ZBH",
-  "publishedAt": "2026-06-26T16:34:42Z",
-  "changelog": "移动端历史页同步菜单加入 GitHub 拉取/同步，保留局域网设备同步",
-  "minSupportedVersionCode": 447,
+  "versionCode": 449,
+  "versionName": "3.4.102-ZBH",
+  "publishedAt": "2026-06-26T17:02:52Z",
+  "changelog": "历史页支持切换 VOD 源后显示旧源历史",
+  "minSupportedVersionCode": 448,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 447,
-        "versionName": "3.4.100-ZBH",
-        "changelog": "移动端弹幕默认关闭；设置页打开弹幕加载后播放页自动显示；手动选中弹幕后自动开启显示",
+        "versionCode": 449,
+        "versionName": "3.4.102-ZBH",
+        "changelog": "历史页支持切换 VOD 源后显示旧源历史",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "154329d9df8ae244ee55e8c0b54bfa060c368b6636c78005f2938cc24a66e725",
+        "sha256": "a52a44beecbd24ca38f01759759de6a7b9665ed0f1fb8322deab1828e7b0bb54",
         "sizeMB": 30.96
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 448,
-        "versionName": "3.4.101-ZBH",
-        "changelog": "移动端历史页同步菜单加入 GitHub 拉取/同步，保留局域网设备同步",
+        "versionCode": 449,
+        "versionName": "3.4.102-ZBH",
+        "changelog": "历史页支持切换 VOD 源后显示旧源历史",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "bc1302e447e69879321953af46b94515726b2209eb0107953cf6dc693bb1a9b3",
+        "sha256": "7952277a4c6e57233f2cd912fa7799ee34f1a86143d3f9a80978df2051fa26f5",
         "sizeMB": 31.12
       }
     }
