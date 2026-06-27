@@ -1,9 +1,9 @@
 {
-  "versionCode": 456,
-  "versionName": "3.4.109-ZBH",
-  "publishedAt": "2026-06-27T01:43:36Z",
-  "changelog": "备选源入口改为视频下方明显按钮；手动切换列表显示全部候选，切到异常源后候选不再越变越少",
-  "minSupportedVersionCode": 455,
+  "versionCode": 457,
+  "versionName": "3.4.110-ZBH",
+  "publishedAt": "2026-06-27T02:53:29Z",
+  "changelog": "新增局域网同步口令；TV 弹幕限制在顶部显示，避免遮挡字幕",
+  "minSupportedVersionCode": 456,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 456,
-        "versionName": "3.4.109-ZBH",
-        "changelog": "备选源入口改为视频下方明显按钮；手动切换列表显示全部候选，切到异常源后候选不再越变越少",
+        "versionCode": 457,
+        "versionName": "3.4.110-ZBH",
+        "changelog": "新增局域网同步口令；TV 弹幕限制在顶部显示，避免遮挡字幕",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "f4cbe933aab6b95fb69a8be24e9db22c51f342e41dca093faf69d0d38e8c3dc9",
+        "sha256": "9f9c9f69cc84c1c9a4ce27de731c14c922b12554684d0fac4e126b7389929af0",
         "sizeMB": 30.96
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 456,
-        "versionName": "3.4.109-ZBH",
-        "changelog": "备选源入口改为视频下方明显按钮；手动切换列表显示全部候选，切到异常源后候选不再越变越少",
+        "versionCode": 457,
+        "versionName": "3.4.110-ZBH",
+        "changelog": "新增局域网同步口令；TV 弹幕限制在顶部显示，避免遮挡字幕",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "61937df2c74bd5f2243eae3a9fa6c402dfc419f018fb4fd5309e2bdbbbd47c11",
+        "sha256": "dc7f0b7d21980c162fb30b6113b5fc445acfde5292b4857d0789701da8cee251",
         "sizeMB": 31.13
       }
     }
