@@ -1,9 +1,9 @@
 {
-  "versionCode": 466,
-  "versionName": "3.4.119-ZBH",
-  "publishedAt": "2026-06-28T04:08:10Z",
-  "changelog": "TV 自动更新持久化诊断日志；仅提升 TV 版本用于验证静默更新链路",
-  "minSupportedVersionCode": 465,
+  "versionCode": 467,
+  "versionName": "3.4.120-ZBH",
+  "publishedAt": "2026-06-28T05:20:24Z",
+  "changelog": "弹幕控制优化：TV 显示弹幕入口和偏移状态；移动端新增弹幕显示区域顶部10%、顶部50%、全屏切换",
+  "minSupportedVersionCode": 466,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -12,32 +12,32 @@
     "https://gh.idayer.com/"
   ],
   "variants": {
-    "mobile": {
-      "v8a": {
-        "versionCode": 464,
-        "versionName": "3.4.117-ZBH",
-        "changelog": "修复弹幕自动切换缓存推导；新增弹幕时间提前/延后调整状态显示；修复弹幕时间偏移调整后未稳定重新加载的问题",
-        "urls": [
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
-        ],
-        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "d8ddfe4058b1c6f30e8685d6878e3b0575ea8542076509a0b7f8ff035d01b00b",
-        "sizeMB": 31.14
-      }
-    },
     "leanback": {
       "v7a": {
-        "versionCode": 466,
-        "versionName": "3.4.119-ZBH",
-        "changelog": "TV 自动更新持久化诊断日志；仅提升 TV 版本用于验证静默更新链路",
+        "versionCode": 467,
+        "versionName": "3.4.120-ZBH",
+        "changelog": "弹幕控制优化：TV 显示弹幕入口和偏移状态；移动端新增弹幕显示区域顶部10%、顶部50%、全屏切换",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "3f1b9e663d9623c8ab44a81735d8f8d509c76f1a2e5d9ad6a7ea17ecf643ed93",
+        "sha256": "b6b10c3bb4335d5e87fbec28c934c92c45bd6ca439c8ce302bc4d22cda34f43e",
         "sizeMB": 30.98
+      }
+    },
+    "mobile": {
+      "v8a": {
+        "versionCode": 467,
+        "versionName": "3.4.120-ZBH",
+        "changelog": "弹幕控制优化：TV 显示弹幕入口和偏移状态；移动端新增弹幕显示区域顶部10%、顶部50%、全屏切换",
+        "urls": [
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
+        "sha256": "5c0ea7652e3edacd13fd4e4050eaf8404b9489c382f0d88a6edad5f2f864d86b",
+        "sizeMB": 31.15
       }
     }
   },
