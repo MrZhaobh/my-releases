@@ -1,9 +1,9 @@
 {
-  "versionCode": 465,
-  "versionName": "3.4.118-ZBH",
-  "publishedAt": "2026-06-28T04:03:15Z",
-  "changelog": "",
-  "minSupportedVersionCode": 464,
+  "versionCode": 466,
+  "versionName": "3.4.119-ZBH",
+  "publishedAt": "2026-06-28T04:08:10Z",
+  "changelog": "TV 自动更新持久化诊断日志；仅提升 TV 版本用于验证静默更新链路",
+  "minSupportedVersionCode": 465,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -28,15 +28,15 @@
     },
     "leanback": {
       "v7a": {
-        "versionCode": 465,
-        "versionName": "3.4.118-ZBH",
-        "changelog": "",
+        "versionCode": 466,
+        "versionName": "3.4.119-ZBH",
+        "changelog": "TV 自动更新持久化诊断日志；仅提升 TV 版本用于验证静默更新链路",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "471ededa1dc09057509c6380db2d8ac640738a514f94e8b6960668c54dc621cf",
+        "sha256": "3f1b9e663d9623c8ab44a81735d8f8d509c76f1a2e5d9ad6a7ea17ecf643ed93",
         "sizeMB": 30.98
       }
     }
