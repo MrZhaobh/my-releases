@@ -1,9 +1,9 @@
 {
-  "versionCode": 464,
-  "versionName": "3.4.117-ZBH",
-  "publishedAt": "2026-06-28T02:42:00Z",
-  "changelog": "修复弹幕自动切换缓存推导；新增弹幕时间提前/延后调整状态显示；修复弹幕时间偏移调整后未稳定重新加载的问题",
-  "minSupportedVersionCode": 463,
+  "versionCode": 465,
+  "versionName": "3.4.118-ZBH",
+  "publishedAt": "2026-06-28T04:03:15Z",
+  "changelog": "",
+  "minSupportedVersionCode": 464,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -12,20 +12,6 @@
     "https://gh.idayer.com/"
   ],
   "variants": {
-    "leanback": {
-      "v7a": {
-        "versionCode": 464,
-        "versionName": "3.4.117-ZBH",
-        "changelog": "修复弹幕自动切换缓存推导；新增弹幕时间提前/延后调整状态显示；修复弹幕时间偏移调整后未稳定重新加载的问题",
-        "urls": [
-          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
-        ],
-        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "680caebde88bd85209b6d416f36cce0a236a9a326e31c5a55b949806d8a80331",
-        "sizeMB": 30.98
-      }
-    },
     "mobile": {
       "v8a": {
         "versionCode": 464,
@@ -38,6 +24,20 @@
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "sha256": "d8ddfe4058b1c6f30e8685d6878e3b0575ea8542076509a0b7f8ff035d01b00b",
         "sizeMB": 31.14
+      }
+    },
+    "leanback": {
+      "v7a": {
+        "versionCode": 465,
+        "versionName": "3.4.118-ZBH",
+        "changelog": "",
+        "urls": [
+          "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
+        ],
+        "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
+        "sha256": "471ededa1dc09057509c6380db2d8ac640738a514f94e8b6960668c54dc621cf",
+        "sizeMB": 30.98
       }
     }
   },
