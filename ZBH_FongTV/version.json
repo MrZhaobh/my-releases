@@ -1,9 +1,9 @@
 {
-  "versionCode": 473,
-  "versionName": "3.4.126-ZBH",
-  "publishedAt": "2026-07-01T15:33:23Z",
-  "changelog": "新增设置页一键重置本地源，支持从远端重新拉取源清单并切回本地合并仓",
-  "minSupportedVersionCode": 472,
+  "versionCode": 474,
+  "versionName": "3.4.127-ZBH",
+  "publishedAt": "2026-07-01T15:50:27Z",
+  "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
+  "minSupportedVersionCode": 473,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 473,
-        "versionName": "3.4.126-ZBH",
-        "changelog": "新增设置页一键重置本地源，支持从远端重新拉取源清单并切回本地合并仓",
+        "versionCode": 474,
+        "versionName": "3.4.127-ZBH",
+        "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "293918355ef8d68f4e3908ed36deee1352f39b5b98eb78b54ef78e1f0dd4dc2b",
+        "sha256": "4daf337b6f85e197d7a3c465ae808e129393903dc61ae3d59235102d64c7e673",
         "sizeMB": 30.99
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 473,
-        "versionName": "3.4.126-ZBH",
-        "changelog": "新增设置页一键重置本地源，支持从远端重新拉取源清单并切回本地合并仓",
+        "versionCode": 474,
+        "versionName": "3.4.127-ZBH",
+        "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "0ae17288da70bd28965a37831fb9853832662f8cdff8fb4f27fdff1f01998930",
+        "sha256": "a2e80954ddfff80396f85296f0ce3c2822a5b4f45f47e8630fb896ed9f5c0ac8",
         "sizeMB": 31.16
       }
     }
