@@ -1,9 +1,9 @@
 {
-  "versionCode": 474,
-  "versionName": "3.4.127-ZBH",
-  "publishedAt": "2026-07-01T15:50:27Z",
-  "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
-  "minSupportedVersionCode": 473,
+  "versionCode": 475,
+  "versionName": "3.4.128-ZBH",
+  "publishedAt": "2026-07-02T05:01:32Z",
+  "changelog": "修复历史同步切集后远端仍停留旧集",
+  "minSupportedVersionCode": 474,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 474,
-        "versionName": "3.4.127-ZBH",
-        "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
+        "versionCode": 475,
+        "versionName": "3.4.128-ZBH",
+        "changelog": "修复历史同步切集后远端仍停留旧集",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "4daf337b6f85e197d7a3c465ae808e129393903dc61ae3d59235102d64c7e673",
+        "sha256": "157e2c65cc11dad9c5268c60e9d84fbb36230eac86bdc25b0edb58a3825fff51",
         "sizeMB": 30.99
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 474,
-        "versionName": "3.4.127-ZBH",
-        "changelog": "修复一键重置本地源时未清空点播源历史，重置后历史列表只保留本地合并仓",
+        "versionCode": 475,
+        "versionName": "3.4.128-ZBH",
+        "changelog": "修复历史同步切集后远端仍停留旧集",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "a2e80954ddfff80396f85296f0ce3c2822a5b4f45f47e8630fb896ed9f5c0ac8",
+        "sha256": "efc074a9bfaa86b66494ee583ab21f9fff0be696c974e634587434fa4addccc7",
         "sizeMB": 31.16
       }
     }
