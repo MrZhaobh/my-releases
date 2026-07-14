@@ -1,9 +1,9 @@
 {
-  "versionCode": 477,
-  "versionName": "3.4.130-ZBH",
-  "publishedAt": "2026-07-02T14:50:19Z",
-  "changelog": "修复腾讯弹幕切集自动推导",
-  "minSupportedVersionCode": 476,
+  "versionCode": 479,
+  "versionName": "3.4.132-ZBH",
+  "publishedAt": "2026-07-14T16:32:44Z",
+  "changelog": "搜索结果优化:需要登录网盘的源统一后置,免登录/在线播放源优先显示",
+  "minSupportedVersionCode": 478,
   "tvShowDialog": false,
   "proxies": [
     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
   "variants": {
     "leanback": {
       "v7a": {
-        "versionCode": 477,
-        "versionName": "3.4.130-ZBH",
-        "changelog": "修复腾讯弹幕切集自动推导",
+        "versionCode": 479,
+        "versionName": "3.4.132-ZBH",
+        "changelog": "搜索结果优化:需要登录网盘的源统一后置,免登录/在线播放源优先显示",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-        "sha256": "c53dddd56bb01afd613be274cd04ac492e01f09f5bf3f5effd296323579bcf33",
+        "sha256": "daf6c93a05e25e3557a56c2896e5090f950e391909384a2832917f00920b85d5",
         "sizeMB": 31.0
       }
     },
     "mobile": {
       "v8a": {
-        "versionCode": 477,
-        "versionName": "3.4.130-ZBH",
-        "changelog": "修复腾讯弹幕切集自动推导",
+        "versionCode": 479,
+        "versionName": "3.4.132-ZBH",
+        "changelog": "搜索结果优化:需要登录网盘的源统一后置,免登录/在线播放源优先显示",
         "urls": [
           "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
         ],
         "github": "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
         "gitee": "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-        "sha256": "61e83b5b814f3b60bda2ee028b4a48b20aca31969628a9d24484b32399f69561",
+        "sha256": "1d49bdc0371931d7f19bddb773bcbabeb652011a2a00e6a6a4d754a1ae572678",
         "sizeMB": 31.16
       }
     }
