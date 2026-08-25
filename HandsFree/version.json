@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 20,
-  "versionName": "1.3.7",
-  "publishedAt": "2026-08-25T15:34:45Z",
-  "changelog": "新增设置页手动检查更新；支持 GitHub 代理竞速下载、失败与低速切源，并校验 APK 大小、SHA-256、包名、版本号和签名。",
+  "versionCode": 21,
+  "versionName": "1.3.8",
+  "publishedAt": "2026-08-25T16:10:16Z",
+  "changelog": "新增多源分块下载：严格校验 Range，8 MiB 分块、最多 3 路不同来源并发，快源自动领取更多块，支持完整块断点恢复；不可分块时自动退回单线路；APK 地址改为不可变版本 Tag。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/HandsFree/dist/HandsFree.apk",
-    "sha256": "f327f1f5bab3383efce8eda98c27a2b50b4b5cbfee77e5f4d5e070e41019446e",
-    "sizeBytes": 70534821
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.3.8-code21/HandsFree/dist/HandsFree.apk",
+    "sha256": "9ae80b006b7978ae8a1b1eec6ea90f436211ad883fc9b57437094c5cd0985488",
+    "sizeBytes": 70469551
   }
 }
