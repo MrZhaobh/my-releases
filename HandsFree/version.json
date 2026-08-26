@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 24,
-  "versionName": "1.4.1",
-  "publishedAt": "2026-08-26T05:15:25Z",
-  "changelog": "完善 Sentry 诊断附件：日志预算提升至 16 MiB，最终 ZIP 限制 18 MiB，优先保留本次进程日志；补充自适应降级、准确截断统计和临时文件安全发布。",
+  "versionCode": 25,
+  "versionName": "1.4.2",
+  "publishedAt": "2026-08-26T07:29:50Z",
+  "changelog": "修复原版节点执行语义：op16按文字匹配并执行中心坐标手势，节点动作返回值不再错误改变脚本跳转；内置最新原版脚本，更新8个步骤并补充35个服务器时间窗口；新增安全脚本搬运工具和兼容审查门禁。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.1-code24/HandsFree/dist/HandsFree.apk",
-    "sha256": "88ae9024ecf4ce3557c3efde47cbd012a5fd02f6b46b61f2e7a1d4990ced1a04",
-    "sizeBytes": 70195095
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.2-code25/HandsFree/dist/HandsFree.apk",
+    "sha256": "2309bcac92b0a6b416157383fad845dc79e69aa640860c8eca44444aeba37b4b",
+    "sizeBytes": 70192307
   }
 }
