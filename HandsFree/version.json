@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 23,
-  "versionName": "1.4.0",
-  "publishedAt": "2026-08-26T04:31:24Z",
-  "changelog": "精简任务导航：移除重复的全部子任务入口和帮助工具页；悬浮控制球与本地屏幕采集合并为反映真实状态的单一开关；子任务默认全选并支持集合内全选、反选和已选计数；保留单任务设置，移除子任务页中位置不合理的全局停止按钮；导入导出迁移到全局数据管理，任务选择改为独立本地覆盖层，不写回内置脚本定义。",
+  "versionCode": 24,
+  "versionName": "1.4.1",
+  "publishedAt": "2026-08-26T05:15:25Z",
+  "changelog": "完善 Sentry 诊断附件：日志预算提升至 16 MiB，最终 ZIP 限制 18 MiB，优先保留本次进程日志；补充自适应降级、准确截断统计和临时文件安全发布。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.0-code23/HandsFree/dist/HandsFree.apk",
-    "sha256": "27909daaaa6ba76fd05541d2709528d6eb9881bfb8f272b2abf95876037a0909",
-    "sizeBytes": 70182811
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.1-code24/HandsFree/dist/HandsFree.apk",
+    "sha256": "88ae9024ecf4ce3557c3efde47cbd012a5fd02f6b46b61f2e7a1d4990ced1a04",
+    "sizeBytes": 70195095
   }
 }
