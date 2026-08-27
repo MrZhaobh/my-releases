@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 25,
-  "versionName": "1.4.2",
-  "publishedAt": "2026-08-26T07:29:50Z",
-  "changelog": "修复原版节点执行语义：op16按文字匹配并执行中心坐标手势，节点动作返回值不再错误改变脚本跳转；内置最新原版脚本，更新8个步骤并补充35个服务器时间窗口；新增安全脚本搬运工具和兼容审查门禁。",
+  "versionCode": 26,
+  "versionName": "1.4.3",
+  "publishedAt": "2026-08-27T06:30:09Z",
+  "changelog": "增强任务点击可靠性：区分目标匹配、动作派发和页面进展；导航入口仅在后继步骤失败返回同一页面时允许一次坐标降级，阻止假成功、直接自循环和重复点击；补充 op6 返回、op96 启动后置校验及 op21 模型诊断日志。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.2-code25/HandsFree/dist/HandsFree.apk",
-    "sha256": "2309bcac92b0a6b416157383fad845dc79e69aa640860c8eca44444aeba37b4b",
-    "sizeBytes": 70192307
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.3-code26/HandsFree/dist/HandsFree.apk",
+    "sha256": "e5176a6baf7699e14939a4c647248f38f3aa5480121d6db4a976cdf8cd680630",
+    "sizeBytes": 70208759
   }
 }
