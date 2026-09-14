@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 29,
-  "versionName": "1.4.6",
-  "publishedAt": "2026-09-06T10:29:32Z",
-  "changelog": "修复正常节点未命中被误判为技术故障导致任务轮次中止；op96 启动应用增加前台稳定确认，防止短暂闪现后在错误应用继续。",
+  "versionCode": 30,
+  "versionName": "1.4.7",
+  "publishedAt": "2026-09-14T05:41:16Z",
+  "changelog": "修复无进展任务长期独占同优先级队列；技术失败在本地 timeline 保留完整定位字段；人机验证扫描合并重复请求、慢页退避并隔离旧任务 generation。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.6-code29/HandsFree/dist/HandsFree.apk",
-    "sha256": "bbf6fe241f664e5f91a66a8dc8578d2f2d1153a30051c4112217731f92a0af5b",
-    "sizeBytes": 70319792
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.7-code30/HandsFree/dist/HandsFree.apk",
+    "sha256": "a02d071ee3a0513d852cc4a0490c91d832032528c4e969264f4d15e862959bac",
+    "sizeBytes": 70322482
   }
 }
