@@ -1,19 +1,19 @@
 {
-  "schemaVersion": 1,
-  "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 34,
-  "versionName": "1.5.3",
-  "publishedAt": "2026-09-17T16:27:55Z",
-  "changelog": "修复购物红包扫描、跨列广告误识别和红包金额模糊匹配；弹框展开后立即连点，后台记录按钮文字、状态和颜色，已抢光仅允许一次重进复核；增加日志终态空间。修复更新下载0%显示、低速误失败、断点续传和429冷却。原脚本未修改，真实开售和拥挤页面待验证。",
-  "proxies": [
-    "https://gh-proxy.com/",
-    "https://ghfast.top/",
-    "https://mirror.ghproxy.com/",
-    "https://gh.idayer.com/"
-  ],
-  "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.3-code34/HandsFree/dist/HandsFree.apk",
-    "sha256": "3b3efa53d77f357fd58adaef3453c11f6ebd08202e9e56c381199e4d035864a0",
-    "sizeBytes": 70294857
-  }
+    "schemaVersion":  1,
+    "packageName":  "com.zbh.handsfreeclone",
+    "versionCode":  35,
+    "versionName":  "1.5.4",
+    "publishedAt":  "2026-09-17T17:37:08Z",
+    "changelog":  "修复红包详情弹框按钮节点裁剪时无法启动抢购的问题；按钮节点异常时仍以弹框结构安全确认，状态记录为未知。",
+    "proxies":  [
+                    "https://gh-proxy.com/",
+                    "https://ghfast.top/",
+                    "https://mirror.ghproxy.com/",
+                    "https://gh.idayer.com/"
+                ],
+    "apk":  {
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.4-code35/HandsFree/dist/HandsFree.apk",
+                "sha256":  "3c1da8d881c505666ef170501e2aa0106db4cafbebdde26c1c7ddb6b072f6567",
+                "sizeBytes":  70342646
+            }
 }
