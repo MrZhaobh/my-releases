@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 30,
-  "versionName": "1.4.7",
-  "publishedAt": "2026-09-14T05:41:16Z",
-  "changelog": "修复无进展任务长期独占同优先级队列；技术失败在本地 timeline 保留完整定位字段；人机验证扫描合并重复请求、慢页退避并隔离旧任务 generation。",
+  "versionCode": 31,
+  "versionName": "1.5.0",
+  "publishedAt": "2026-09-17T07:34:59Z",
+  "changelog": "新增卡点抢购：OCR扫描并记忆商品，按手机系统时间点击商品后连续抢购；新增跟随悬浮球的穿透日志窗、独立抢购日志及Sentry附件。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.4.7-code30/HandsFree/dist/HandsFree.apk",
-    "sha256": "a02d071ee3a0513d852cc4a0490c91d832032528c4e969264f4d15e862959bac",
-    "sizeBytes": 70322482
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.0-code31/HandsFree/dist/HandsFree.apk",
+    "sha256": "47f6298d335f50fa6ac6cc6ddedbad1170e4d823507e8f2cd43d115e36168692",
+    "sizeBytes": 70266189
   }
 }
