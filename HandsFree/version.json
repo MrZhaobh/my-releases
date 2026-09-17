@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 32,
-  "versionName": "1.5.1",
-  "publishedAt": "2026-09-17T09:25:01Z",
-  "changelog": "Sentry 诊断附件上限提升至 20 MiB，并按先进先出保留最新日志；卡点抢购运行期间保持屏幕常亮，结束或停止后自动释放。",
+  "versionCode": 33,
+  "versionName": "1.5.2",
+  "publishedAt": "2026-09-17T14:54:20Z",
+  "changelog": "抢购改为在菜鸟页通过悬浮球扫描、筛选单选商品并定位等待；提供当天10:00/16:00快捷时间及时分秒选择器；移除退后台误回桌面的扫描入口，修复旧回调串入新任务。已通过自动测试和静态审查，真机交互待验证。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.1-code32/HandsFree/dist/HandsFree.apk",
-    "sha256": "e7a6371eca2fd239fe1c5d9d89ab54def17935e41946f2ca6f03952c33afe0cf",
-    "sizeBytes": 70270285
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.2-code33/HandsFree/dist/HandsFree.apk",
+    "sha256": "a4e94bec996bc380ce6504f441104f62f3042fffbe8162d25a62157b5556f072",
+    "sizeBytes": 70278477
   }
 }
