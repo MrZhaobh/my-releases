@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  37,
-    "versionName":  "1.5.6",
-    "publishedAt":  "2026-09-18T07:13:39Z",
-    "changelog":  "时间选择支持直接填写及分钟/秒加减；修复详情异步加载时过早标定失败，并改用语义 close 正确关闭 UC WebView 弹框。",
+    "versionCode":  38,
+    "versionName":  "1.5.7",
+    "publishedAt":  "2026-09-18T08:30:31Z",
+    "changelog":  "补充抢购动作目标确认、500ms/1500ms抽样效果与连点后最终可见结果日志；分层记录系统手势与页面结构变化，避免把悬浮层画面变化或手势完成误判为抢购成功。",
     "proxies":  [
                     "https://gh-proxy.com/",
                     "https://ghfast.top/",
@@ -12,8 +12,8 @@
                     "https://gh.idayer.com/"
                 ],
     "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.6-code37/HandsFree/dist/HandsFree.apk",
-                "sha256":  "efa7231f5cc10dc7cd962f63cc8b765c08ae2b18cf5ca5684fa80a0114004378",
-                "sizeBytes":  70352265
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.7-code38/HandsFree/dist/HandsFree.apk",
+                "sha256":  "9b6d0f4b733f9b7982c8eaa90b34c1acb76c62c6a9b37db6616910dd304c6a13",
+                "sizeBytes":  70303053
             }
 }
