@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  35,
-    "versionName":  "1.5.4",
-    "publishedAt":  "2026-09-17T17:37:08Z",
-    "changelog":  "修复红包详情弹框按钮节点裁剪时无法启动抢购的问题；按钮节点异常时仍以弹框结构安全确认，状态记录为未知。",
+    "versionCode":  36,
+    "versionName":  "1.5.5",
+    "publishedAt":  "2026-09-18T01:29:50Z",
+    "changelog":  "修复红包详情未真正关闭却进入等待、列表商品被弹框标题误识别及运行按钮坐标失效；售罄状态支持受限 OCR 复核；时间选择改为当前时间起始的 HH:mm:ss 三段输入。",
     "proxies":  [
                     "https://gh-proxy.com/",
                     "https://ghfast.top/",
@@ -12,8 +12,8 @@
                     "https://gh.idayer.com/"
                 ],
     "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.4-code35/HandsFree/dist/HandsFree.apk",
-                "sha256":  "3c1da8d881c505666ef170501e2aa0106db4cafbebdde26c1c7ddb6b072f6567",
-                "sizeBytes":  70342646
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.5-code36/HandsFree/dist/HandsFree.apk",
+                "sha256":  "8c43936ed8664166b49d5084725368649a02736d0b60ad8845394ae55dc2886c",
+                "sizeBytes":  70347038
             }
 }
