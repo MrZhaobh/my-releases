@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  46,
-    "versionName":  "1.5.15",
-    "publishedAt":  "2026-09-20T15:48:49Z",
-    "changelog":  "仅支持ARM64设备。优化抢购同一快照的重复弹框检查及商品名正则编译，保留原安全阈值、节点/OCR兜底和一次重进策略；保留详细耗时诊断，实际提速待真机验收。后续发布统一ARM64并校验APK原生库架构。",
+    "versionCode":  47,
+    "versionName":  "1.5.16",
+    "publishedAt":  "2026-09-20T16:16:57Z",
+    "changelog":  "仅支持ARM64。优化屏幕采集：图像无行填充时减少一次整屏Bitmap复制，保留有填充裁剪和原安全判断；补充帧回调、复制、发布锁等待与来源时序，继续定位重复帧和颜色复核瓶颈。实际提速待真机验收。",
     "proxies":  [
                     "https://gh-proxy.com/",
                     "https://ghfast.top/",
@@ -12,8 +12,8 @@
                     "https://gh.idayer.com/"
                 ],
     "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.15-code46/HandsFree/dist/HandsFree.apk",
-                "sha256":  "04976b353ac2984cacdfbb639f4196f331f92ff561fab7aee9da79c5e6d7a186",
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.16-code47/HandsFree/dist/HandsFree.apk",
+                "sha256":  "53432d3fca05ef50aec8f20f3457259878078c401c86db0604ec6e5497ff214d",
                 "sizeBytes":  25942900
             }
 }
