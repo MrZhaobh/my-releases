@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  44,
-    "versionName":  "1.5.13",
-    "publishedAt":  "2026-09-20T14:29:01Z",
-    "changelog":  "修复标定详情返回列表时OCR漏识别导致结束，增加严格节点兜底；优化首次灰色复核的新帧等待与关闭时序，保留一次重进和第二次明确文字停止；补充颜色路径与OCR分阶段耗时诊断，实际提速待验收。",
+    "versionCode":  45,
+    "versionName":  "1.5.14",
+    "publishedAt":  "2026-09-20T14:58:39Z",
+    "changelog":  "补充抢购全链路耗时诊断：关联节点采集、处理、主线程排队、颜色保护证据年龄和截图条件，尽量用一次日志定位首次复核瓶颈；固定容量记录，结束后自动随诊断附件上报，不调整抢购安全阈值或策略。",
     "proxies":  [
                     "https://gh-proxy.com/",
                     "https://ghfast.top/",
@@ -12,8 +12,8 @@
                     "https://gh.idayer.com/"
                 ],
     "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.13-code44/HandsFree/dist/HandsFree.apk",
-                "sha256":  "dfe03be861601a5b0c52ff49f74a40099f96bd889a44d1002a1d9f3292e6f099",
-                "sizeBytes":  70369293
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.14-code45/HandsFree/dist/HandsFree.apk",
+                "sha256":  "5959704e946aebae8460a68d5694a7af5fd67eec0fd8baa819f6200bba480365",
+                "sizeBytes":  70377481
             }
 }
