@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 42,
-  "versionName": "1.5.11",
-  "publishedAt": "2026-09-20T08:39:14Z",
-  "changelog": "修正全应用按钮凸起阴影与禁用色态，拖动柄改为无边框六点图标；精简子任务顶部管理按钮，改善只读字段可读性与页面边距，悬浮面板不再透出底层文字。时间选择新增−30秒/+30秒，保留分钟与秒调整，分两行避免拥挤。华为真机已逐页复查并验证拖动及30秒加减。原脚本、任务优先级、调度和抢购执行策略不变。",
+  "versionCode": 43,
+  "versionName": "1.5.12",
+  "publishedAt": "2026-09-20T09:45:27Z",
+  "changelog": "抢购结束自动上报日志和最后截图；进入有效兑换流程后不再自动返回；缩短售罄复核等待并优先当前唯一节点重进，华为2元红包实测。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.11-code42/HandsFree/dist/HandsFree.apk",
-    "sha256": "50fe92312a674f580695a4cbfaaf27b1aa1d3bf4fb59ea5791102a65c9296412",
-    "sizeBytes": 70361101
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.12-code43/HandsFree/dist/HandsFree.apk",
+    "sha256": "acd10f9752d7fbe335c2556ed9cef4f136d29bec86fc358550aa0013523ec3c6",
+    "sizeBytes": 70394482
   }
 }
