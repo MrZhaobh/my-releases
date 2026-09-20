@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 39,
-  "versionName": "1.5.8",
-  "publishedAt": "2026-09-20T03:00:23Z",
-  "changelog": "修复应用启动时数据库版本7与代码版本1冲突导致的闪退；对齐原版数据库版本7，保留已有本地任务和设置，不修改原脚本、不清空数据。新增首次安装及已有版本1/7数据库的启动回归测试。真实设备覆盖安装待验证。",
+  "versionCode": 40,
+  "versionName": "1.5.9",
+  "publishedAt": "2026-09-20T06:24:36Z",
+  "changelog": "新增集合排序、临时勾选与默认勾选分离、已保存设置的本地/Gist备份恢复；Gist Token仅手动填写并本机加密保存，不内置凭据。新增导出发版默认配置流程，升级保留现有设置。普通任务显示执行/等待状态及失败原因。改进抢购兑换成功停止、明确按钮状态的一次复核及受限颜色辅助；修复普通点击负坐标，扩大诊断原始日志预算并加强截图隐私及进程归属。保留原始脚本及数据库v7。意外回列表恢复与售罄复核分离尚待实施；未宣称真机抢购问题全部解决。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.8-code39/HandsFree/dist/HandsFree.apk",
-    "sha256": "c9c16d962350e33645c6b306dce0c2934e9779a8b15f0356e69b0ee76ed3ae11",
-    "sizeBytes": 70303053
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.9-code40/HandsFree/dist/HandsFree.apk",
+    "sha256": "e429790c17b4f45ff130d44555dca60672dd7558a0374c259c743afc039b18bb",
+    "sizeBytes": 70356400
   }
 }
