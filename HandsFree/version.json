@@ -1,19 +1,20 @@
 {
-  "schemaVersion": 1,
-  "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 53,
-  "versionName": "1.5.22",
-  "publishedAt": "2026-09-21T15:36:56Z",
-  "changelog": "抢购有进展后保留前五秒固定连点；识别当前右下鲜艳可点动作或去兑换后持续接力点击，并记录按钮证据。",
-  "proxies": [
-    "https://gh-proxy.com/",
-    "https://ghfast.top/",
-    "https://mirror.ghproxy.com/",
-    "https://gh.idayer.com/"
-  ],
-  "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.22-code53/HandsFree/dist/HandsFree.apk",
-    "sha256": "921769bf45527c0d45f866f30d4f3b07dc68c2d6ed15876a5544567778981900",
-    "sizeBytes": 25967476
-  }
+    "schemaVersion":  1,
+    "packageName":  "com.zbh.handsfreeclone",
+    "versionCode":  54,
+    "versionName":  "1.5.23",
+    "publishedAt":  "2026-09-21T16:22:15Z",
+    "changelog":  "新增自有 Cloudflare Worker 作为更新下载优先竞速备源；保留 GitHub 与既有代理回退，继续校验 APK SHA-256。",
+    "proxies":  [
+                    "https://handsfree-download.zbh.workers.dev/?url=",
+                    "https://gh-proxy.com/",
+                    "https://ghfast.top/",
+                    "https://mirror.ghproxy.com/",
+                    "https://gh.idayer.com/"
+                ],
+    "apk":  {
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.23-code54/HandsFree/dist/HandsFree.apk",
+                "sha256":  "605b0168f7c0d7586c43553ff3a29d12599ed710c96c4f28bedea0e8d70793f7",
+                "sizeBytes":  26030494
+            }
 }
