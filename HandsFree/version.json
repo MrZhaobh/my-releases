@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 52,
-  "versionName": "1.5.21",
-  "publishedAt": "2026-09-21T13:55:19Z",
-  "changelog": "优化抢购开门期性能：首击前暂停完整节点树/OCR/颜色诊断，保留双详情确认；首击派发后恢复完整取证。",
+  "versionCode": 53,
+  "versionName": "1.5.22",
+  "publishedAt": "2026-09-21T15:36:56Z",
+  "changelog": "抢购有进展后保留前五秒固定连点；识别当前右下鲜艳可点动作或去兑换后持续接力点击，并记录按钮证据。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.21-code52/HandsFree/dist/HandsFree.apk",
-    "sha256": "86652b8d056a391646d38f56e088a898c4ef738f1bcfcb4aea34a69e8de48e9d",
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.22-code53/HandsFree/dist/HandsFree.apk",
+    "sha256": "921769bf45527c0d45f866f30d4f3b07dc68c2d6ed15876a5544567778981900",
     "sizeBytes": 25967476
   }
 }
