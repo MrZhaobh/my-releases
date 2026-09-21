@@ -1,19 +1,19 @@
 {
-    "schemaVersion":  1,
-    "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  47,
-    "versionName":  "1.5.16",
-    "publishedAt":  "2026-09-20T16:16:57Z",
-    "changelog":  "仅支持ARM64。优化屏幕采集：图像无行填充时减少一次整屏Bitmap复制，保留有填充裁剪和原安全判断；补充帧回调、复制、发布锁等待与来源时序，继续定位重复帧和颜色复核瓶颈。实际提速待真机验收。",
-    "proxies":  [
-                    "https://gh-proxy.com/",
-                    "https://ghfast.top/",
-                    "https://mirror.ghproxy.com/",
-                    "https://gh.idayer.com/"
-                ],
-    "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.16-code47/HandsFree/dist/HandsFree.apk",
-                "sha256":  "53432d3fca05ef50aec8f20f3457259878078c401c86db0604ec6e5497ff214d",
-                "sizeBytes":  25942900
-            }
+  "schemaVersion": 1,
+  "packageName": "com.zbh.handsfreeclone",
+  "versionCode": 48,
+  "versionName": "1.5.17",
+  "publishedAt": "2026-09-21T01:34:38Z",
+  "changelog": "仅支持ARM64。新增列表与详情页面参照，准备阶段稳定采样并验证灰底和返回列表；详情确认立即连点。目标已抢光或校准灰底首次重进、再次仍异常则停止；非灰或立即兑换锁定进展，完成约3秒连点，不再重进。修复其他商品OCR污染坐标，增加帧归属及实际点击诊断。真机效果待验收。",
+  "proxies": [
+    "https://gh-proxy.com/",
+    "https://ghfast.top/",
+    "https://mirror.ghproxy.com/",
+    "https://gh.idayer.com/"
+  ],
+  "apk": {
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.17-code48/HandsFree/dist/HandsFree.apk",
+    "sha256": "15dd7b0761b7ccb6840aed39a72f4c75ee9f3ad1150f01f1695a3c63df17eec3",
+    "sizeBytes": 25959284
+  }
 }
