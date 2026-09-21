@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 50,
-  "versionName": "1.5.19",
-  "publishedAt": "2026-09-21T07:57:49Z",
-  "changelog": "修复抢购详情首击过早导致退出：视觉与详情树双确认后立即连点，保留灰色一次重进。",
+  "versionCode": 51,
+  "versionName": "1.5.20",
+  "publishedAt": "2026-09-21T09:42:46Z",
+  "changelog": "抢购有进展后固定坐标连续点击五秒；页面切换仅旁路取证，补齐确认页去兑换证据、成功与人机验证安全终止。",
   "proxies": [
     "https://gh-proxy.com/",
     "https://ghfast.top/",
@@ -12,8 +12,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.19-code50/HandsFree/dist/HandsFree.apk",
-    "sha256": "c82e68c9d8ff4ed0685a47d5996b7bdf07066b376756074e355607f417f5a384",
-    "sizeBytes": 25963380
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.20-code51/HandsFree/dist/HandsFree.apk",
+    "sha256": "02c1be90fed1ba0e2585060395258bee00a7ada038eebeb25106c7ddc56704b0",
+    "sizeBytes": 26056091
   }
 }
