@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 57,
-  "versionName": "1.5.26",
-  "publishedAt": "2026-09-22T09:10:01Z",
-  "changelog": "抢购像素单一决策权：灰色直接重进或停止，非灰和新页面接力只由右下像素决定；树/OCR仅取证。",
+  "versionCode": 58,
+  "versionName": "1.5.27",
+  "publishedAt": "2026-09-22T09:34:46Z",
+  "changelog": "新增抢购预准备三路计时：目标右下节点树、OCR动作区域、像素灰基线共用详情点击起点并统一汇总。",
   "proxies": [
     "https://handsfree-download.zbh.workers.dev/?url=",
     "https://gh-proxy.com/",
@@ -13,8 +13,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.26-code57/HandsFree/dist/HandsFree.apk",
-    "sha256": "71f87c23888ac6c6eafa472831667b990afd74894019fd34707259fbf842f9e7",
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.27-code58/HandsFree/dist/HandsFree.apk",
+    "sha256": "e9524bf1e62d13854610e9f6f2c95e70401b02d03eec7eea0495c36658fde0ba",
     "sizeBytes": 25971572
   }
 }
