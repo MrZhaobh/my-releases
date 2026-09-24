@@ -1,20 +1,20 @@
 {
-  "schemaVersion": 1,
-  "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 59,
-  "versionName": "1.5.28",
-  "publishedAt": "2026-09-23T11:57:23Z",
-  "changelog": "抢购进展后双新鲜灰帧受控重进；转场持续观察；限流繁忙提示旁路记录；修复OCR改写点击坐标。",
-  "proxies": [
-    "https://handsfree-download.zbh.workers.dev/?url=",
-    "https://gh-proxy.com/",
-    "https://ghfast.top/",
-    "https://mirror.ghproxy.com/",
-    "https://gh.idayer.com/"
-  ],
-  "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.28-code59/HandsFree/dist/HandsFree.apk",
-    "sha256": "108890bf114f1f6bca714dc99cdf3740616731122dceea44f86e240c43177b41",
-    "sizeBytes": 25979764
-  }
+    "schemaVersion":  1,
+    "packageName":  "com.zbh.handsfreeclone",
+    "versionCode":  60,
+    "versionName":  "1.5.29",
+    "publishedAt":  "2026-09-24T13:21:44Z",
+    "changelog":  "自动双通路抢购：准备阶段树/OCR赛马，像素固定参与；同一安全状态机处理进展点击、页面变化与导航补试，强化决策来源及按钮状态日志。",
+    "proxies":  [
+                    "https://handsfree-download.zbh.workers.dev/?url=",
+                    "https://gh-proxy.com/",
+                    "https://ghfast.top/",
+                    "https://mirror.ghproxy.com/",
+                    "https://gh.idayer.com/"
+                ],
+    "apk":  {
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.29-code60/HandsFree/dist/HandsFree.apk",
+                "sha256":  "04b395028c7b78b641b8b5c01cd392af17f192762d96cbd0dfeb8692bc825119",
+                "sizeBytes":  25992052
+            }
 }
