@@ -1,9 +1,9 @@
 {
-    "versionCode":  482,
-    "versionName":  "3.4.135-ZBH",
-    "publishedAt":  "2026-10-25T12:14:05Z",
-    "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
-    "minSupportedVersionCode":  481,
+    "versionCode":  483,
+    "versionName":  "3.4.136-ZBH",
+    "publishedAt":  "2026-10-25T16:42:53Z",
+    "changelog":  "下载页改版:剧集文件夹化管理/整剧进度/删除确认;HLS可合并导出通用.ts并支持边下边播;新增系统下载引擎(App退出也继续下载,默认仍内置);播放中自动限速下载不抢带宽,夜间卡顿明显缓解;搜索与收藏支持跨站智能排序;多处稳定性修复",
+    "minSupportedVersionCode":  482,
     "tvShowDialog":  false,
     "proxies":  [
                     "https://gh-proxy.com/",
@@ -14,30 +14,30 @@
     "variants":  {
                      "leanback":  {
                                       "v7a":  {
-                                                  "versionCode":  482,
-                                                  "versionName":  "3.4.135-ZBH",
-                                                  "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
+                                                  "versionCode":  483,
+                                                  "versionName":  "3.4.136-ZBH",
+                                                  "changelog":  "下载页改版:剧集文件夹化管理/整剧进度/删除确认;HLS可合并导出通用.ts并支持边下边播;新增系统下载引擎(App退出也继续下载,默认仍内置);播放中自动限速下载不抢带宽,夜间卡顿明显缓解;搜索与收藏支持跨站智能排序;多处稳定性修复",
                                                   "urls":  [
                                                                "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
                                                            ],
                                                   "github":  "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
                                                   "gitee":  "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-                                                  "sha256":  "9aeba1d3fac5baf3d0cebe051f595359ed8a0e1c80bc45d04ec75717198fe1bf",
-                                                  "sizeMB":  31.12
+                                                  "sha256":  "b73073e48f08dc9eaab55069f1c05abde784bd9bde8141ac3c4d85a9b30ade7c",
+                                                  "sizeMB":  31.13
                                               }
                                   },
                      "mobile":  {
                                     "v8a":  {
-                                                "versionCode":  482,
-                                                "versionName":  "3.4.135-ZBH",
-                                                "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
+                                                "versionCode":  483,
+                                                "versionName":  "3.4.136-ZBH",
+                                                "changelog":  "下载页改版:剧集文件夹化管理/整剧进度/删除确认;HLS可合并导出通用.ts并支持边下边播;新增系统下载引擎(App退出也继续下载,默认仍内置);播放中自动限速下载不抢带宽,夜间卡顿明显缓解;搜索与收藏支持跨站智能排序;多处稳定性修复",
                                                 "urls":  [
                                                              "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
                                                          ],
                                                 "github":  "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
                                                 "gitee":  "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                "sha256":  "9169bdafcac5b5a5b90a372d0d19ed6631806fa80de314268d9a16151c1dfd7a",
-                                                "sizeMB":  31.28
+                                                "sha256":  "70d995a35571b103c764f4298efee3c6abb2d0c8f2dbe9957ac178b9e3332b29",
+                                                "sizeMB":  31.3
                                             }
                                 }
                  },
