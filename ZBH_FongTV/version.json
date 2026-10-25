@@ -1,9 +1,9 @@
 {
-    "versionCode":  481,
-    "versionName":  "3.4.134-ZBH",
-    "publishedAt":  "2026-10-25T11:58:15Z",
-    "changelog":  "修复: Android 9 TV 标题排序正则崩溃(PatternSyntaxException); 搜索排序/网盘垫底/弹幕修复同480",
-    "minSupportedVersionCode":  480,
+    "versionCode":  482,
+    "versionName":  "3.4.135-ZBH",
+    "publishedAt":  "2026-10-25T12:14:05Z",
+    "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
+    "minSupportedVersionCode":  481,
     "tvShowDialog":  false,
     "proxies":  [
                     "https://gh-proxy.com/",
@@ -14,29 +14,29 @@
     "variants":  {
                      "leanback":  {
                                       "v7a":  {
-                                                  "versionCode":  481,
-                                                  "versionName":  "3.4.134-ZBH",
-                                                  "changelog":  "修复: Android 9 TV 标题排序正则崩溃(PatternSyntaxException); 搜索排序/网盘垫底/弹幕修复同480",
+                                                  "versionCode":  482,
+                                                  "versionName":  "3.4.135-ZBH",
+                                                  "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
                                                   "urls":  [
                                                                "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk"
                                                            ],
                                                   "github":  "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
                                                   "gitee":  "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/leanback-v7a.apk",
-                                                  "sha256":  "9f790574d8bee4df2255dad7d55c23f8f750276d87537d94cddf2eb40d59e5da",
+                                                  "sha256":  "9aeba1d3fac5baf3d0cebe051f595359ed8a0e1c80bc45d04ec75717198fe1bf",
                                                   "sizeMB":  31.12
                                               }
                                   },
                      "mobile":  {
                                     "v8a":  {
-                                                "versionCode":  481,
-                                                "versionName":  "3.4.134-ZBH",
-                                                "changelog":  "修复: Android 9 TV 标题排序正则崩溃(PatternSyntaxException); 搜索排序/网盘垫底/弹幕修复同480",
+                                                "versionCode":  482,
+                                                "versionName":  "3.4.135-ZBH",
+                                                "changelog":  "修复TV(Android 9)标题排序正则崩溃; 同480全部排序/弹幕/超时修复",
                                                 "urls":  [
                                                              "https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk"
                                                          ],
                                                 "github":  "https://gh-proxy.com/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
                                                 "gitee":  "https://ghfast.top/https://raw.githubusercontent.com/MrZhaobh/my-releases/main/ZBH_FongTV/dist/mobile-v8a.apk",
-                                                "sha256":  "a22baa87e08381502de1027f5f1d9f14736b665f934fd58ae0cb701c7c98a877",
+                                                "sha256":  "9169bdafcac5b5a5b90a372d0d19ed6631806fa80de314268d9a16151c1dfd7a",
                                                 "sizeMB":  31.28
                                             }
                                 }
