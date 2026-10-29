@@ -1,0 +1,4 @@
+7c74ec695c4af3940ab390877225ef1716850b6426bd645268a8ce5a9cac3388  CodexRemote-0.6.7.apk
+ec22db1df1e9d2ac31d165460cf8c7505789f65bdc1828f3e87ccc75a6056a7c  CodexRemote-Windows-0.6.7.zip
+a900bbbdecafcc13beb12f300ce21b746de9745010748e2f134225556ae1f31f  Configuration.zh-CN.md
+1dacafbe16b5f39de49f50a60d3cdaaa7e47ab9fe5fea4312e814826e323149b  Delivery.zh-CN.md
