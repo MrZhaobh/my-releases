@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  62,
-    "versionName":  "1.5.31",
-    "publishedAt":  "2026-10-30T15:06:54Z",
-    "changelog":  "Randomized tap offsets within the original target bounds to reduce identical-coordinate tapping; no database or interaction-flow changes.",
+    "versionCode":  63,
+    "versionName":  "1.5.32",
+    "publishedAt":  "2026-10-31T01:09:49Z",
+    "changelog":  "卡点抢购子页面新增抢2元红包、当天10:00快捷入口，复用普通准备流程。",
     "proxies":  [
                     "https://handsfree-download.zbh.workers.dev/?url=",
                     "https://gh-proxy.com/",
@@ -13,8 +13,8 @@
                     "https://gh.idayer.com/"
                 ],
     "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.31-code62/HandsFree/dist/HandsFree.apk",
-                "sha256":  "39bb2498355cda53464f2411246449f42ef8425d55c63efcef7b04dee0ebda71",
-                "sizeBytes":  26115196
+                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.32-code63/HandsFree/dist/HandsFree.apk",
+                "sha256":  "506fca224767b1b6c5a3003d38bb37db44a95787d902f7f31cffedf72cc2bbbc",
+                "sizeBytes":  26284684
             }
 }
