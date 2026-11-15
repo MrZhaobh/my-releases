@@ -1,20 +1,20 @@
 {
-    "schemaVersion":  1,
-    "packageName":  "com.zbh.handsfreeclone",
-    "versionCode":  63,
-    "versionName":  "1.5.32",
-    "publishedAt":  "2026-10-31T01:09:49Z",
-    "changelog":  "卡点抢购子页面新增抢2元红包、当天10:00快捷入口，复用普通准备流程。",
-    "proxies":  [
-                    "https://handsfree-download.zbh.workers.dev/?url=",
-                    "https://gh-proxy.com/",
-                    "https://ghfast.top/",
-                    "https://mirror.ghproxy.com/",
-                    "https://gh.idayer.com/"
-                ],
-    "apk":  {
-                "url":  "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.32-code63/HandsFree/dist/HandsFree.apk",
-                "sha256":  "506fca224767b1b6c5a3003d38bb37db44a95787d902f7f31cffedf72cc2bbbc",
-                "sizeBytes":  26284684
-            }
+    "schemaVersion": 1,
+    "packageName": "com.zbh.handsfreeclone",
+    "versionCode": 64,
+    "versionName": "1.5.33",
+    "publishedAt": "2026-11-15T11:02:21Z",
+    "changelog": "抢购「30秒」快捷改为「10秒」（就位后起算，10点按钮语义不变）；一键导航OCR容错（兌/换异体、普通兑换截断、合并tab行）；抢购面板精简，保留10点/10秒/商品扫描/指定时间抢购/多商品/快捷时间；商品选择改为固定按钮点击展开列表；判灰立即关闭策略回归。",
+    "proxies": [
+        "https://handsfree-download.zbh.workers.dev/?url=",
+        "https://gh-proxy.com/",
+        "https://ghfast.top/",
+        "https://mirror.ghproxy.com/",
+        "https://gh.idayer.com/"
+    ],
+    "apk": {
+        "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.33-code64/HandsFree/dist/HandsFree.apk",
+        "sha256": "5875e33c453a9905bd5d21c6967ec29e14d65ad5ae1bfb3a78b069bddcbcbfc4",
+        "sizeBytes": 26131772
+    }
 }
