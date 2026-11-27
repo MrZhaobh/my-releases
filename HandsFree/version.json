@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "packageName": "com.zbh.handsfreeclone",
-  "versionCode": 67,
-  "versionName": "1.5.36",
-  "publishedAt": "2026-11-24T02:48:33Z",
-  "changelog": "抢购拥堵与灰底统一为立即关闭重试：重试额度改为至少 5 次、最多 8 次、窗口 12 秒（未达下限时窗口不截断）；拥堵浮层遮挡像素导致无法判定 DETAIL 时，改用完整语义弹框+商品标题+唯一关闭控件的归属证据派发关闭，不再空转；重开期间每 500ms 低频观测拥挤提示，只记录不决策。",
+  "versionCode": 68,
+  "versionName": "1.5.37",
+  "publishedAt": "2026-11-27T01:40:00Z",
+  "changelog": "抢购拥堵取证字段补强（不改任何判定逻辑）：会话开始行新增版本号与绝对时间，单份日志即可自证版本；按钮观测补充完整 16 点采样与核心彩色计数，用于区分“按钮真灰”与“无障碍树陈旧导致颜色未知”；按钮授权拒绝行补充否决原因（弹框缺失/帧陈旧/周边变化/灰底匹配）；会话汇总新增按原因统计的授权拒绝次数，使 dispatched=0 可直接归因。",
   "proxies": [
     "https://handsfree-download.zbh.workers.dev/?url=",
     "https://gh-proxy.com/",
@@ -13,8 +13,8 @@
     "https://gh.idayer.com/"
   ],
   "apk": {
-    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.36-code67/HandsFree/dist/HandsFree.apk",
-    "sha256": "8f306d18b16a66629f4ec8cbeb966c896c8da1c8561b18b0d5eb5218b2f5f912",
+    "url": "https://raw.githubusercontent.com/MrZhaobh/my-releases/handsfree-v1.5.37-code68/HandsFree/dist/HandsFree.apk",
+    "sha256": "4b6f32bf6842c4cb5fceefc90cb2ab2d9c8680d9517654197827e8088948f178",
     "sizeBytes": 26160448
   }
 }
